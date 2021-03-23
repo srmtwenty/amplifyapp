@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../documents/Resume2021c.pdf';
+// import resume from '../documents/Resume2021c.pdf';
 import { Document, Page, pdfjs } from "react-pdf";
 
 
@@ -10,7 +10,7 @@ const Resume = () => {
     return(
         <div>
             <div className="resume" >
-                <Document file={resume} size="A4">
+                <Document file='/Resume2021c.pdf' size="A4">
                     <Page
                     object-fit="fill"
                     pageNumber={1}
