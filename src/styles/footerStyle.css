@@ -1,0 +1,23 @@
+.footerStyle{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    background-image: linear-gradient(to top right, rgb(129, 154, 236, .5), rgb(73, 167, 255, .5));
+}
+
+.footerStyle h1{
+    width: 50%;
+}
+
+.wrap{
+    /* text-align:right; */
+    border: red solid 2px;
+    width: 40%;
+    
+}
+
+.wrap h3{
+    /* padding:5px; */
+    /* margin: 5px; */
+    text-align: left;
+}

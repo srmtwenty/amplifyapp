@@ -1,0 +1,104 @@
+
+.profileImg{
+    margin-top: 20px;
+    width: 23%;
+    background-color: purple;
+    padding: 1px;
+    vertical-align: top;
+    /* border: red solid 4px; */
+}
+
+.aboutPage{
+    background-image: linear-gradient(to bottom, rgb(1, 175, 255, 0), rgb(1, 175, 255, 1));
+    /* background-image: linear-gradient(to bottom, rgb(236, 255, 233, 0), rgb(236, 255, 233, 1)); */
+    padding-top: 10px;
+    border-radius: 25px;
+    padding-bottom: 2px;
+}
+
+.aboutPageSub{
+    border-style: solid;
+    background-color: rgb(246, 246, 246, .5);
+    margin-bottom:50px;
+    width: 43%;
+    
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 20px;
+    
+}
+
+.aboutPage h1{
+    font-weight: 200;
+    line-height: 1.2;
+}
+
+/* #aboutTopStyle {
+    text-align:left;
+    
+} */
+
+.fStyle{
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 100px;
+    line-height: 20px; */
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    font-size: 30px;
+    margin-left: 4%;
+    margin-right: 10%;
+    border: black solid 3px;
+    background: rgba(228, 228, 228, 0.8);
+    margin-top: 30px;
+    padding-left: 30px;
+    /* border: red solid 4px; */
+    
+}
+
+
+.aboutStyle{
+    /* background-color: yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 800px;
+    /* border: white solid 3px;
+    border-radius: 25px; */
+    margin-bottom: 50px;
+    
+
+}
+
+.aboutStyle h2{
+    padding: 10px;
+    font-weight:150;
+    line-height: 1;
+    margin-bottom: -1px;
+}
+
+.title{
+    background-image: linear-gradient(to bottom right, rgb(207, 207, 207, .8), rgb(149, 149, 149, 08));
+    /* background-image: linear-gradient(to bottom right, rgb(189, 216, 238), rgb(129, 175, 236)); */
+    /* background-color: gray; */
+    border: white solid 2px;
+    /* border-radius: 5px; */
+    border-radius: 5px 25px 0px 0px;
+    /* margin-bottom: 2px; */
+}
+
+.content{
+    padding:10px;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 100, .7), rgb(251, 251, 174, .7));
+    /* background-color: orange; */
+    border: white solid 2px;
+    border-radius:0px 0px 5px 5px;
+
+}
+
+.content p{
+    margin-bottom: 10px;
+}
