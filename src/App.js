@@ -16,7 +16,8 @@ import Collapsible from './views/Collapsible';
 // import './styles/navigate.css';
 
 import Image from './images/concept1a.jpg';
-
+// import Resume2021c from '../documents/Resume2021c.pdf';
+import Resume from './views/Resume';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <WorksCode path="/works_code"/>
         <ResumeCode path="/resume_code"/>
         <ResumeAnim path="/resume_anim"/>
+        <Resume path="/resume"/>
       </Router>
     </div>
   );
