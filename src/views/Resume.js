@@ -1,11 +1,11 @@
 import React from 'react';
 // import resume from '../documents/Resume2021c.pdf';
 import { Document, Page, pdfjs } from "react-pdf";
-
+import "react-pdf/dist/Page/AnnotationLayer.css";
 
 
 const Resume = () => {
-    // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+    pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
     
 
     return(
