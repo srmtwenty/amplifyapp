@@ -1,6 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import axios from 'axios';
-
 import Menu from '../components/Menu';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 // import aboutPic from '../images/IMG_3058_400.jpg';

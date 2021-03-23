@@ -4,11 +4,11 @@ import {Link} from '@reach/router';
 import Resume2021c from '../documents/Resume2021c.pdf';
 import '../styles/resumeStyle.css';
 import SinglePagePDFViewer from "../components/single-page";
-import AllPagesPDFViewer from "../components/all-pages";
+
 import Menu from "../components/Menu";
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 // import bg1da1 from '../images/bg1da1.jpg';
-import resume2021h from '../documents/Resume_Howard_Shin.pdf';
+
 import DownloadLink from "react-download-link";
 import Footer from '../components/Footer';
 
