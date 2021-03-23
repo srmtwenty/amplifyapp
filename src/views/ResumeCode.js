@@ -15,10 +15,6 @@ import Footer from '../components/Footer';
 const ResumeCode=(props)=>{
     pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
     const { pdf } = props;
-    // const rStyle={
-    //     marginLeft: "auto",
-    //     marginRight: "auto" 
-    // }
 
     return(
         <BrowserRouter>
@@ -30,13 +26,7 @@ const ResumeCode=(props)=>{
                     <h2 style={{paddingBottom: "10px"}}>Choose a resume to view:</h2>
                     <Link style={{textDecoration: "none"}} class="current" to="/resume_code">Resume (full-stack-developer)</Link> 
                     <Link class="currentOff" style={{textDecoration: "none"}} to="/resume_anim">Resume (cg character animator)</Link>
-                    {/* <Document file={Resume2021c}>
-                        <Page pageNumber={1} 
-                                // object-fit="fill"
-                                renderTextLayer={false}
-                                // width={1000}
-                                renderAnnotationLayer={true}/>       
-                    </Document> */}
+                    
                     
                     <SinglePagePDFViewer pdf={Resume2021c} />
 
@@ -46,11 +36,6 @@ const ResumeCode=(props)=>{
                     exportFile={()=>"My cached data"}
                 />
                 </div>
-                
-                
-                {/* <div>
-                    <a className="dl" href={pdf} download="Resume2021">Download Resume</a>
-                </div> */}
                 
                 <Footer/>
             </div>

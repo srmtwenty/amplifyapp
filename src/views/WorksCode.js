@@ -1,16 +1,18 @@
 import React, {useState} from 'react';
 import Menu from '../components/Menu';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-// import project2a from '../image_files/project2a.png';
 import SimpleImageSlider from 'react-simple-image-slider';
-// import con1 from '../image_files/concept1a.jpg';
-// import project2b from '../image_files/project2b.jpg';
-// import project2c from '../image_files/project2c.png';
 import Footer from '../components/Footer';
-// import project1a from '../image_files/project1a.png';
-// import project1b from '../image_files/project1b.png';
-// import project1c from '../image_files/project1c.png';
-// import project3a from '../image_files/project3a.png';
+import project2a from '../images/project2a.png';
+
+import con1 from '../images/concept1a.jpg';
+import project2b from '../images/project2b.jpg';
+import project2c from '../images/project2c.png';
+
+import project1a from '../images/project1a.png';
+import project1b from '../images/project1b.png';
+import project1c from '../images/project1c.png';
+import project3a from '../images/project3a.png';
 
 
 // import 'images/concept1a.jpg'
@@ -48,12 +50,15 @@ export default(props)=>{
                     showBullets={true}
                 />
                 </div>
-                {/* <div>
+                <div>
                     <img src={project1a}/>
                     <img src={project1b}/>
                     <img src={project1c}/>
                     <img src={project3a}/>
-                </div> */}
+                    <img src={project2a}/>
+                    <img src={project2b}/>
+                    <img src={project2c}/>
+                </div>
                 <div>
                 <SimpleImageSlider
                     width={1000}
