@@ -5,7 +5,6 @@ import SimpleImageSlider from 'react-simple-image-slider';
 import Footer from '../components/Footer';
 import project2a from '../images/project2a.png';
 
-import con1 from '../images/concept1a.jpg';
 import project2b from '../images/project2b.jpg';
 import project2c from '../images/project2c.png';
 
