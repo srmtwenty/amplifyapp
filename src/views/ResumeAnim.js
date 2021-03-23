@@ -32,7 +32,7 @@ const ResumeAnim=()=>{
                                 renderAnnotationLayer={true}/>       
                     </Document> */}
                     
-                    <SinglePagePDFViewer pdf={Resume2021a1.pdf} />
+                    <SinglePagePDFViewer pdf={Resume2021a1} />
 
                     <DownloadLink
                     label="Download Resume(cg character animator)"
