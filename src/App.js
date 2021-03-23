@@ -23,6 +23,10 @@ function App() {
     <div className="App">
       <Router>
         <About path="/"/>
+        <WorksAnim path="/works_anim"/>
+        <WorksCode path="/works_code"/>
+        <ResumeCode path="/resume_code"/>
+        <ResumeAnim path="/resume_anim"/>
       </Router>
     </div>
   );
