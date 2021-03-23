@@ -49,15 +49,7 @@ export default(props)=>{
                     showBullets={true}
                 />
                 </div>
-                <div>
-                    <img src={project1a}/>
-                    <img src={project1b}/>
-                    <img src={project1c}/>
-                    <img src={project3a}/>
-                    <img src={project2a}/>
-                    <img src={project2b}/>
-                    <img src={project2c}/>
-                </div>
+               
                 <div>
                 <SimpleImageSlider
                     width={1000}
