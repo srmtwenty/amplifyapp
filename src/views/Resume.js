@@ -11,7 +11,7 @@ const Resume = () => {
     return(
         <div>
             <div className="resume" >
-                <Document file='./Resume2021c.pdf' size="A4">
+                <Document file='/Resume2021c.pdf' size="A4">
                     <Page
                     object-fit="fill"
                     pageNumber={1}
