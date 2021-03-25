@@ -11,7 +11,7 @@
 
 .wrap{
     /* text-align:right; */
-    border: red solid 2px;
+    border: red none 2px;
     width: 40%;
     
 }

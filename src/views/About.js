@@ -14,8 +14,27 @@ import Typical from 'react-typical';
 import bg3a2 from '../images/bg3a2.jpg';
 import Footer from '../components/Footer';
 
+import HTML from '../images/icons/HTML.png';
+import CSS from '../images/icons/CSS.png';
+import Python from '../images/icons/python.png';
+import JavaScript from '../images/icons/JavaScript.png';
+import MongoDB from '../images/icons/mongodb.png';
+import Express from '../images/icons/expressjs.png';
+// import React
+import Node from '../images/icons/nodejs.png';
+// import Spring
+// import Java from '../images/icons/java.png';
+
+
 const About=props=>{
-    
+    const eachSkill={
+        display: "flex", 
+        // border: "red solid 2px", 
+        width: "250px",
+        // height: "50px",
+        margin: "5px"
+    }
+
     return(
         <BrowserRouter>
         <div style={{backgroundImage: `url(${bg1da1})`}}>
@@ -25,18 +44,15 @@ const About=props=>{
                 <Route exact path="/dashboard" component={null} />
                 <Route exact path="/" component={null} />
             </Switch> */}
-            <div style={{textAlign: "left", display: "block", maxHeight: "35%", paddingBottom: "100px", border: "red solid 2px"}}>
-                <div style={{backgroundImage: `url(${bg3a2})`, paddingBottom: "260px", marginLeft:"auto", marginRight: "auto", width: "1000px", border: "yellow solid 2px"}}>
+            <div style={{textAlign: "left", display: "block", maxHeight: "35%", paddingBottom: "100px", border: "red none 2px"}}>
+                <div style={{backgroundImage: `url(${bg3a2})`, marginTop: "20px",paddingBottom: "260px", marginLeft:"auto", marginRight: "auto", width: "1000px", border: "black solid 2px"}}>
                     
                     <div className="fStyle">
-                        <Typical 
+                        <Typical
                             // className="fStyle"
                             steps={['Scott Cho', 1000, 
-                                
                                 ]}
-                            
                             wrapper="h1"
-                            
                         />  
                         <Typical 
                             // style={{textAlign: "left", display: "inline-block", width: "30%", border: "red, slide, 2px"}}
@@ -62,10 +78,10 @@ const About=props=>{
                 </div>
                     
                 <div class="aboutPage">
-              
+
                     <div class="aboutPageSub">
                             <div className="aboutStyle">
-                                <h2 class="title">As A Full Stack Developer</h2>
+                                <h1 class="title">As A Full Stack Developer</h1>
                                 <div className="content">
                                     <p>I learned CSS, Python, MERN and Java at CodingDojo for 14 weeks without a computer science background in fall 2020.</p>
                                     <p>Before I learned the coding, I have been keeping an eye on to a growth of app developer industry for last couple years because it is growing fast.
@@ -75,10 +91,89 @@ const About=props=>{
                                     <p>During 14 week coding camp, I worked on three team projects in Python, MERN and Java.</p>
 
                                 </div>
+                                <div class="skills">
+                                    <div style={eachSkill}>
+                                        <img src={HTML} style={{width:"50px", border:"yellow solid 2px"}}/>
+                                        <h3>HTML</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={CSS} style={{width:"50px"}}/>
+                                        <h3>CSS</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Python} style={{width:"50px"}}/>
+                                        <h3>Python</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={JavaScript} style={{width:"50px"}}/>
+                                        <h3>JavaScript</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={MongoDB} style={{width:"50px"}}/>
+                                        <h3>MongoDB</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Python} style={{width:"50px"}}/>
+                                        <h3>Mongoose</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Express} style={{width:"50px"}}/>
+                                        <h3>Express</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Python} style={{width:"50px"}}/>
+                                        <h3>React</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Python} style={{width:"50px"}}/>
+                                        <h3>Node</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Python} style={{width:"50px"}}/>
+                                        <h3>Spring Boot</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Python} style={{width:"50px"}}/>
+                                        <h3>Java</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Python} style={{width:"50px"}}/>
+                                        <h3>Visual Studio Code</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Python} style={{width:"50px"}}/>
+                                        <h3>React</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Python} style={{width:"50px"}}/>
+                                        <h3>Bcrypt</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Python} style={{width:"50px"}}/>
+                                        <h3>MySQL</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Python} style={{width:"50px"}}/>
+                                        <h3>Spring Tool Suite</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Python} style={{width:"50px"}}/>
+                                        <h3>Postman</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Python} style={{width:"50px"}}/>
+                                        <h3>Github</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Python} style={{width:"50px"}}/>
+                                        <h3>Api</h3>
+                                    </div>
+                                    
+                                </div>
                             </div>
                         
                             <div className="aboutStyle">
-                                <h2 class="title">As An Animator:</h2>
+                                <h1 class="title2">As An Animator:</h1>
                                 <div className="content">
                                     <p>I earned a MFA degree at the Academy of Art University with a major in 3D Character Animation.  
                                     From 2009 to 2012, I took graduate animation courses focusing on performance, mechanical motion, and was mentored under veteran industry animators.</p> 
@@ -87,10 +182,44 @@ const About=props=>{
                                     <p>I worked in the indie game company called '2020 Venture Studios' and participated in development of 'Chasing Dead' game from Oct 2014 to May 2016.  
                                         In May 2019, I worked for Tim Everitt Productions' 90 min cg animated film as a freelancer.</p>
                                 </div>
+                                <div class="skills">
+                                    
+                                    <div style={eachSkill}>
+                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <h3>Maya</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <h3>Photoshop CS</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <h3>Premiere Pro</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <h3>MotionBuilder</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <h3>Unity</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <h3>After Effect</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <h3>Illustrator CS</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <h3>Audacity</h3>
+                                    </div>
+                                </div>
                             </div>
                     </div>
-                {/* </div> */}
-            </div>
+                </div>
             <Footer/>
         </div>
         </BrowserRouter>

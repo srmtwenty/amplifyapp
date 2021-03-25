@@ -14,9 +14,10 @@ const Footer=()=>{
                     <li>Contact: 541-255-5401</li>
                     <li>Email: srmcho81.rd@gmail.com</li>
                 </ul> */}
-                
-                <h3>Contact: 541-255-5401</h3>
-                <h3>Email: srmcho81.rd@gmail.com</h3>
+                <div style={{textAlign: "center"}}>
+                    <h3>Contact: 541-255-5401</h3>
+                    <h3>Email: srmcho81.rd@gmail.com</h3>
+                </div>
             </div>
         </div>
     )

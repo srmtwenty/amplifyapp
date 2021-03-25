@@ -29,7 +29,9 @@ const WorksAnim=(props)=>{
     return(
         
         <BrowserRouter>
-            <div style={{backgroundImage: `url(${File_001a})`,  height:'3000px'}}>
+            <div style={{
+                // backgroundImage: `url(${File_001a})`,  
+                height:'2500px'}}>
             <div>
                 <Menu/>
             </div>
