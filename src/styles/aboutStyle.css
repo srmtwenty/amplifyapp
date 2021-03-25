@@ -20,11 +20,12 @@
     border-style: solid;
     background-color: rgb(246, 246, 246, .5);
     margin-bottom:50px;
-    width: 43%;
+    width: 1000px;
+    padding-top: 50px;
     
     margin-left:auto;
     margin-right:auto;
-    border-radius: 20px;
+    border-radius: 50px;
     
 }
 
@@ -62,16 +63,20 @@
 
 
 .aboutStyle{
-    
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     max-width: 800px;
-    
     margin-bottom: 50px;
-    
-
+    background-color: white;
+    border-radius: 25px 25px 25px 25px;
 }
+
+/* .h2_skills{
+    background-color:gray; 
+    border: red solid 2px;
+    
+} */
 
 .aboutStyle h3{
     /* padding: 10px; */
@@ -87,22 +92,22 @@
     /* background-image: linear-gradient(to bottom right, rgb(207, 207, 207, .8), rgb(149, 149, 149, 08)); */
     background-color: white;
     border: white solid 2px;
-    border-radius: 5px 25px 0px 0px;/* background-image: linear-gradient(to bottom right, rgb(189, 216, 238), rgb(129, 175, 236)); */
+    border-radius: 25px 25px 0px 0px;/* background-image: linear-gradient(to bottom right, rgb(189, 216, 238), rgb(129, 175, 236)); */
     
     /* background-color: gray; */
     /* border-radius: 5px; */
-    /* margin-bottom: 2px; */
+    margin-bottom: 0px;
 }
 
 .title2{
     /* background-image: linear-gradient(to bottom right, rgb(207, 207, 207, .8), rgb(149, 149, 149, 08)); */
     background-color: gray;
     border: white solid 2px;
-    border-radius: 5px 25px 0px 0px;/* background-image: linear-gradient(to bottom right, rgb(189, 216, 238), rgb(129, 175, 236)); */
+    border-radius: 25px 25px 0px 0px;/* background-image: linear-gradient(to bottom right, rgb(189, 216, 238), rgb(129, 175, 236)); */
     color: white;
     /* background-color: gray; */
     /* border-radius: 5px; */
-    /* margin-bottom: 2px; */
+    margin-bottom: 0px;
 }
 
 .content{
@@ -111,7 +116,7 @@
     background-image: linear-gradient(to bottom, rgb(255, 255, 100, .7), rgb(251, 251, 174, .7));
     border: white solid 2px;
     border-radius:0px 0px 5px 5px;
-
+    
 }
 
 
@@ -126,4 +131,5 @@
     max-width: 800px;
     justify-content: center;
     flex-wrap: wrap;
+    margin:0px;
 }

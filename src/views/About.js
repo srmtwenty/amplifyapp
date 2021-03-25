@@ -20,11 +20,20 @@ import Python from '../images/icons/python.png';
 import JavaScript from '../images/icons/JavaScript.png';
 import MongoDB from '../images/icons/mongodb.png';
 import Express from '../images/icons/expressjs.png';
-// import React
-import Node from '../images/icons/nodejs.png';
-// import Spring
-// import Java from '../images/icons/java.png';
+import React1 from '../images/icons/react.png';
 
+import Node from '../images/icons/nodejs.png';
+import Java from '../images/icons/java.png';
+import Git from '../images/icons/github.png';
+
+
+import Spring from '../images/icons/spring.png';
+
+import SQL from '../images/icons/sqlite.png';
+
+import Unity from '../images/icons/unity.png';
+
+import Maya from '../images/icons/maya.png';
 
 const About=props=>{
     const eachSkill={
@@ -91,7 +100,9 @@ const About=props=>{
                                     <p>During 14 week coding camp, I worked on three team projects in Python, MERN and Java.</p>
 
                                 </div>
+                                <h2 style={{fontStyle:"italic"}}>Skills</h2>
                                 <div class="skills">
+                                
                                     <div style={eachSkill}>
                                         <img src={HTML} style={{width:"50px", border:"yellow solid 2px"}}/>
                                         <h3>HTML</h3>
@@ -121,19 +132,19 @@ const About=props=>{
                                         <h3>Express</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px"}}/>
+                                        <img src={React1} style={{width:"50px"}}/>
                                         <h3>React</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px"}}/>
+                                        <img src={Node} style={{width:"50px"}}/>
                                         <h3>Node</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px"}}/>
+                                        <img src={Spring} style={{width:"50px"}}/>
                                         <h3>Spring Boot</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px"}}/>
+                                        <img src={Java} style={{width:"50px"}}/>
                                         <h3>Java</h3>
                                     </div>
                                     <div style={eachSkill}>
@@ -142,14 +153,10 @@ const About=props=>{
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Python} style={{width:"50px"}}/>
-                                        <h3>React</h3>
-                                    </div>
-                                    <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px"}}/>
                                         <h3>Bcrypt</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px"}}/>
+                                        <img src={SQL} style={{width:"50px"}}/>
                                         <h3>MySQL</h3>
                                     </div>
                                     <div style={eachSkill}>
@@ -161,7 +168,7 @@ const About=props=>{
                                         <h3>Postman</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px"}}/>
+                                        <img src={Git} style={{width:"50px"}}/>
                                         <h3>Github</h3>
                                     </div>
                                     <div style={eachSkill}>
@@ -182,38 +189,39 @@ const About=props=>{
                                     <p>I worked in the indie game company called '2020 Venture Studios' and participated in development of 'Chasing Dead' game from Oct 2014 to May 2016.  
                                         In May 2019, I worked for Tim Everitt Productions' 90 min cg animated film as a freelancer.</p>
                                 </div>
+                                <h2 style={{fontStyle:"italic"}}>Skills</h2>
                                 <div class="skills">
                                     
                                     <div style={eachSkill}>
-                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <img src={Maya} style={{width:"50px"}}/>
                                         <h3>Maya</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <img src={CSS} style={{width:"50px"}}/>
                                         <h3>Photoshop CS</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <img src={CSS} style={{width:"50px"}}/>
                                         <h3>Premiere Pro</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <img src={CSS} style={{width:"50px"}}/>
                                         <h3>MotionBuilder</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <img src={Unity} style={{width:"50px"}}/>
                                         <h3>Unity</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <img src={CSS} style={{width:"50px"}}/>
                                         <h3>After Effect</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <img src={CSS} style={{width:"50px"}}/>
                                         <h3>Illustrator CS</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        {/* <img src={CSS} style={{width:"50px"}}/> */}
+                                        <img src={CSS} style={{width:"50px"}}/>
                                         <h3>Audacity</h3>
                                     </div>
                                 </div>
