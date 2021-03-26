@@ -34,7 +34,7 @@
       /* background-color: #4CAF50;  */
       border: 2px solid green;
       color: white;
-      padding: 10px 30px;
+      padding: 10px 0px 10px 0px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
@@ -42,7 +42,7 @@
       cursor: pointer;
       margin: 10px;
       border-radius: 10px;
-      width: 150px;
+      width: 140px;
       /* width: 15%; */
     }
     
