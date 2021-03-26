@@ -197,35 +197,35 @@ const About=props=>{
                                 <div class="skills">
                                     
                                     <div style={eachSkill}>
-                                        <img src={Maya} style={{width:"50px"}}/>
+                                        <img src={Maya} style={{width:"50px", height:"50px"}}/>
                                         <h3>Maya</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={CSS} style={{width:"50px"}}/>
+                                        <img src={CSS} style={{width:"50px", height:"50px"}}/>
                                         <h3>Photoshop CS</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={CSS} style={{width:"50px"}}/>
+                                        <img src={CSS} style={{width:"50px", height:"50px"}}/>
                                         <h3>Premiere Pro</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={CSS} style={{width:"50px"}}/>
+                                        <img src={CSS} style={{width:"50px", height:"50px"}}/>
                                         <h3>MotionBuilder</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Unity} style={{width:"50px"}}/>
+                                        <img src={Unity} style={{width:"50px", height:"50px"}}/>
                                         <h3>Unity</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={AEffect} style={{width:"50px"}}/>
+                                        <img src={AEffect} style={{width:"50px", height:"50px"}}/>
                                         <h3>After Effect</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={CSS} style={{width:"50px"}}/>
+                                        <img src={CSS} style={{width:"50px", height:"50px"}}/>
                                         <h3>Illustrator CS</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Audacity} style={{width:"50px"}}/>
+                                        <img src={Audacity} style={{width:"50px", height:"50px"}}/>
                                         <h3>Audacity</h3>
                                     </div>
                                 </div>

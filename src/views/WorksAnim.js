@@ -9,6 +9,7 @@ import environ1a from '../images/environ1a.jpg';
 import concept1a from '../images/concept1a.jpg';
 import character_turn1 from '../images/character_turn1.jpg';
 import Footer from '../components/Footer';
+import '../styles/worksAnim.css';
 
 const WorksAnim=(props)=>{
     const [open, setOpen] = useState(false);
