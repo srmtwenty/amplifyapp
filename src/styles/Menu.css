@@ -1,13 +1,15 @@
 
 
-#header-style {
-    /* background-color: blue; */
-    background-image: linear-gradient(to top right, rgb(129, 154, 236, .5), rgb(73, 167, 255, .5));
-    width: 1000px;
-    border: black solid 2px;
-  }
+/* #header-style {
+    
+    
+  } */
   
   .Menu{
+      background-image: linear-gradient(to top right, rgb(129, 154, 236, .5), rgb(73, 167, 255, .5));
+          width: 1000px;
+          border: black solid 2px;
+
       position: relative;
       /* padding: 4px; */
       
