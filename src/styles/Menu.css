@@ -12,7 +12,7 @@
       border: black solid 2px;
       /* margin: 2em 3em; */
       /* width: 1000px; */
-      width: 40%
+      width: 100%
   }
   
   .btn-group {
@@ -20,6 +20,7 @@
       justify-content: center;
       margin: 5px;
       padding: 5px;
+      /* width: 100% */
       /* float: left; */
   }
   
@@ -36,6 +37,7 @@
       cursor: pointer;
       margin: 10px;
       border-radius: 10px;
+      width: 15%;
       
     }
     
