@@ -1,19 +1,22 @@
-.Menu{
-    position: relative;
-    /* padding: 4px; */
-    border: black solid 2px;
-    /* margin: 2em 3em; */
-    /* width: 1000px; */
-    width: 100%
-}
+
 
 #header-style {
     /* background-color: blue; */
     background-image: linear-gradient(to top right, rgb(129, 154, 236, .5), rgb(73, 167, 255, .5));
+    width: 100%
+  }
+  
+  .Menu{
+      position: relative;
+      /* padding: 4px; */
+      border: black solid 2px;
+      /* margin: 2em 3em; */
+      /* width: 1000px; */
+      width: 40%
   }
   
   .btn-group {
-      display: flux;
+      display: flex;
       justify-content: center;
       margin: 5px;
       padding: 5px;

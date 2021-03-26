@@ -12,9 +12,9 @@ const Menu = props=>{
 
     return (
         <div id="header-style">
-        <div className="Menu">
+            <div className="Menu">
 
-            <a href="/" style={aStyle}>
+                <a href="/" style={aStyle}>
                     <button className="current1">About</button>
                 </a>
 
