@@ -34,6 +34,9 @@ import SQL from '../images/icons/sqlite.png';
 import Unity from '../images/icons/unity.png';
 
 import Maya from '../images/icons/maya.png';
+import Visual from '../images/icons/visual_studio.png';
+import Audacity from '../images/icons/audacity.png';
+import AEffect from '../images/icons/after-effects.png';
 
 const About=props=>{
     const eachSkill={
@@ -46,7 +49,8 @@ const About=props=>{
 
     return(
         <BrowserRouter>
-        <div style={{backgroundImage: `url(${bg1da1})`}}>
+        <div style={{backgroundColor: "white"}}>
+        {/* <div style={{backgroundImage: `url(${bg1da1})`}}> */}
             <Menu/>
             {/* <Switch>
                 <Route exact path="/settings" component={null} />
@@ -104,75 +108,75 @@ const About=props=>{
                                 <div class="skills">
                                 
                                     <div style={eachSkill}>
-                                        <img src={HTML} style={{width:"50px", border:"yellow solid 2px"}}/>
+                                        <img src={HTML} style={{width:"50px", height:"50px", border:"yellow solid 2px"}}/>
                                         <h3>HTML</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={CSS} style={{width:"50px"}}/>
+                                        <img src={CSS} style={{width:"50px", height:"50px"}}/>
                                         <h3>CSS</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px"}}/>
+                                        <img src={Python} style={{width:"50px", height:"50px"}}/>
                                         <h3>Python</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={JavaScript} style={{width:"50px"}}/>
+                                        <img src={JavaScript} style={{width:"50px", height:"50px"}}/>
                                         <h3>JavaScript</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={MongoDB} style={{width:"50px"}}/>
+                                        <img src={MongoDB} style={{width:"50px", height:"50px"}}/>
                                         <h3>MongoDB</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px"}}/>
+                                        <img src={Python} style={{width:"50px", height:"50px"}}/>
                                         <h3>Mongoose</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Express} style={{width:"50px"}}/>
+                                        <img src={Express} style={{width:"50px", height:"50px"}}/>
                                         <h3>Express</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={React1} style={{width:"50px"}}/>
+                                        <img src={React1} style={{width:"50px", height:"50px"}}/>
                                         <h3>React</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Node} style={{width:"50px"}}/>
+                                        <img src={Node} style={{width:"50px", height:"50px"}}/>
                                         <h3>Node</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Spring} style={{width:"50px"}}/>
+                                        <img src={Spring} style={{width:"50px", height:"50px"}}/>
                                         <h3>Spring Boot</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Java} style={{width:"50px"}}/>
+                                        <img src={Java} style={{width:"50px", height:"50px"}}/>
                                         <h3>Java</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px"}}/>
+                                        <img src={Visual} style={{width:"50px", height:"50px"}}/>
                                         <h3>Visual Studio Code</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px"}}/>
+                                        <img src={Python} style={{width:"50px", height:"50px"}}/>
                                         <h3>Bcrypt</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={SQL} style={{width:"50px"}}/>
+                                        <img src={SQL} style={{width:"50px", height:"50px"}}/>
                                         <h3>MySQL</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px"}}/>
+                                        <img src={Python} style={{width:"50px", height:"50px"}}/>
                                         <h3>Spring Tool Suite</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px"}}/>
+                                        <img src={Python} style={{width:"50px", height:"50px"}}/>
                                         <h3>Postman</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Git} style={{width:"50px"}}/>
+                                        <img src={Git} style={{width:"50px", height:"50px"}}/>
                                         <h3>Github</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px"}}/>
+                                        <img src={Python} style={{width:"50px", height:"50px"}}/>
                                         <h3>Api</h3>
                                     </div>
                                     
@@ -213,7 +217,7 @@ const About=props=>{
                                         <h3>Unity</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={CSS} style={{width:"50px"}}/>
+                                        <img src={AEffect} style={{width:"50px"}}/>
                                         <h3>After Effect</h3>
                                     </div>
                                     <div style={eachSkill}>
@@ -221,7 +225,7 @@ const About=props=>{
                                         <h3>Illustrator CS</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={CSS} style={{width:"50px"}}/>
+                                        <img src={Audacity} style={{width:"50px"}}/>
                                         <h3>Audacity</h3>
                                     </div>
                                 </div>
