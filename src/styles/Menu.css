@@ -12,19 +12,19 @@
       border: black solid 2px;
       /* margin: 2em 3em; */
       /* width: 1000px; */
-      width: 100%;
+      /* width: 100%; */
       display: flex;
-      flex-wrap: wrap; 
+      /* flex-wrap: wrap;  */
+      /* justify-content: center; */
   }
   
-  .btn-group {
+  /* .btn-group {
       display: flex;
       justify-content: center;
       margin: 5px;
       padding: 5px;
-      /* width: 100% */
-      /* float: left; */
-  }
+      
+  } */
   
   .Menu button {
       background-image: linear-gradient(to top right, rgb(107, 163, 107), rgb(80, 148, 80));
@@ -39,8 +39,7 @@
       cursor: pointer;
       margin: 10px;
       border-radius: 10px;
-      width: 15%;
-      
+      /* width: 15%; */
     }
     
     .Menu button:not(:last-child) {
