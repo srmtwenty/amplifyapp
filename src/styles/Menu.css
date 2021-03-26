@@ -12,7 +12,9 @@
       border: black solid 2px;
       /* margin: 2em 3em; */
       /* width: 1000px; */
-      width: 100%
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap; 
   }
   
   .btn-group {
