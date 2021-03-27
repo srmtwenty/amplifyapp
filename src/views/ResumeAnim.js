@@ -10,6 +10,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import DownloadLink from "react-download-link";
 import Footer from '../components/Footer';
+import ResumeA from '../images/Resume2021a1s.jpg';
 
 const ResumeAnim=()=>{
     pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -31,13 +32,14 @@ const ResumeAnim=()=>{
                                 // width={1000}
                                 renderAnnotationLayer={true}/>       
                     </Document> */}
-                    
-                    <SinglePagePDFViewer pdf={Resume2021a1} />
+                    <img src={ResumeA}/>
+                    {/* <SinglePagePDFViewer pdf={Resume2021A} /> */}
 
                     <DownloadLink
                     label="Download Resume(cg character animator)"
                     filename="Resume2021a1.pdf"
                     exportFile={()=>"My cached data"}
+                    style={{border:"black solid 2px", backgroundColor:"cyan", marginBottom:"20px", padding:"10px", borderRadius:"15px 15px 15px 15px"}}
                 />
                 </div>
 

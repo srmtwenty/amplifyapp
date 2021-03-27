@@ -11,6 +11,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import DownloadLink from "react-download-link";
 import Footer from '../components/Footer';
+import ResumeC from '../images/Resume2021cs.jpg';
 
 const ResumeCode=(props)=>{
     pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -26,15 +27,18 @@ const ResumeCode=(props)=>{
                 <div className="resumeStyle">
                     <h2 style={{paddingBottom: "10px"}}>Choose a resume to view:</h2>
                     <Link style={{textDecoration: "none"}} class="current" to="/resume_code">Resume (full-stack-developer)</Link> 
+
                     <Link class="currentOff" style={{textDecoration: "none"}} to="/resume_anim">Resume (cg character animator)</Link>
                     
                     
-                    <SinglePagePDFViewer pdf={Resume2021c} />
+                    {/* <SinglePagePDFViewer pdf={Resume2021c} /> */}
+                    <img src={ResumeC}/>
 
                     <DownloadLink
                     label="Download Resume(full-stack-developer)"
                     filename="Resume2021c.pdf"
                     exportFile={()=>"My cached data"}
+                    style={{border:"black solid 2px", backgroundColor:"cyan", marginBottom:"20px", padding:"10px", borderRadius:"15px 15px 15px 15px"}}
                 />
                 </div>
                 
