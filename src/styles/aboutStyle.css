@@ -1,8 +1,8 @@
-*{
+/* *{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .profileImg{
     margin-top: 20px;
@@ -20,6 +20,7 @@
     
     padding-bottom: 5px;
     width: 1000px;
+    border: red solid 2px;
 }
 
 .aboutPageSub{
@@ -29,8 +30,8 @@
     width: 1000px;
     padding-top: 50px;
     
-    margin-left:auto;
-    margin-right:auto;
+    /* margin-left:auto;
+    margin-right:auto; */
     border-radius: 50px;
     
 }
@@ -58,7 +59,7 @@
     font-size: 30px;
     margin-left: 4%;
     margin-right: 10%;
-    border: black solid 3px;
+    border: black solid 2px;
     background: rgba(228, 228, 228, 0.8);
     margin-top: 30px;
     padding-left: 30px;
@@ -69,13 +70,16 @@
 
 
 .aboutStyle{
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    max-width: 800px;
+    width: 800px;
     margin-bottom: 50px;
-    background-color: white;
+    background-color: gray;
     border-radius: 25px 25px 25px 25px;
+    border: yellow solid 2px;
+    padding: 2px;
 }
 
 /* .h2_skills{
@@ -96,8 +100,8 @@
 
 .title{
     /* background-image: linear-gradient(to bottom right, rgb(207, 207, 207, .8), rgb(149, 149, 149, 08)); */
-    background-color: white;
-    border: white solid 2px;
+    /* background-color: white; */
+    border: red none 2px;
     border-radius: 25px 25px 0px 0px;/* background-image: linear-gradient(to bottom right, rgb(189, 216, 238), rgb(129, 175, 236)); */
     
     /* background-color: gray; */
@@ -108,7 +112,7 @@
 .title2{
     /* background-image: linear-gradient(to bottom right, rgb(207, 207, 207, .8), rgb(149, 149, 149, 08)); */
     background-color: gray;
-    border: white solid 2px;
+    /* border: white solid 2px; */
     border-radius: 25px 25px 0px 0px;/* background-image: linear-gradient(to bottom right, rgb(189, 216, 238), rgb(129, 175, 236)); */
     color: white;
     /* background-color: gray; */
@@ -117,12 +121,14 @@
 }
 
 .content{
-    padding:10px;
+    /* padding:0px; */
     /* background-color: orange; */
     background-image: linear-gradient(to bottom, rgb(255, 255, 100, .7), rgb(251, 251, 174, .7));
-    border: white solid 2px;
+    border: black solid 2px;
     border-radius:0px 0px 5px 5px;
-    
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 800px;
 }
 
 

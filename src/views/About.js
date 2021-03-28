@@ -49,7 +49,7 @@ const About=props=>{
 
     return(
         <BrowserRouter>
-        <div style={{backgroundColor: "white"}}>
+        <div style={{backgroundColor: "white", border: "yellow solid 2px"}}>
         {/* <div style={{backgroundImage: `url(${bg1da1})`}}> */}
             <Menu/>
             {/* <Switch>
@@ -58,7 +58,7 @@ const About=props=>{
                 <Route exact path="/" component={null} />
             </Switch> */}
             <div style={{textAlign: "left", display: "block", maxHeight: "35%", paddingBottom: "100px", border: "red none 2px"}}>
-                <div style={{backgroundImage: `url(${bg3a2})`, marginTop: "20px",paddingBottom: "260px", marginLeft:"auto", marginRight: "auto", width: "1000px", border: "black solid 2px"}}>
+                <div style={{backgroundImage: `url(${bg3a2})`, marginTop: "20px",paddingBottom: "260px", marginLeft:"auto", marginRight: "auto", width: "900px", border: "black solid 2px"}}>
                     
                     <div className="fStyle">
                         <Typical
