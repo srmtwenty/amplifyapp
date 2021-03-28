@@ -34,56 +34,58 @@ export default(props)=>{
     
     return(
         <BrowserRouter>
-            <div>
+            <div style={{backgroundColor: "white", border: "yellow solid 2px", marginLeft:"auto", marginRight:"auto", width: "1000px"}}>
                 <Menu/>
-            </div>
-            <div style={{textAlign: "center"}}>
-                <div>
+            
+                <div style={{textAlign: "center"}}>
                     <div>
-                        <h2>EasyShop - Simple and intuitive E-commerce website(Python/Django)</h2>
+                        <div>
+                            <h2>EasyShop - Simple and intuitive E-commerce website(Python/Django)</h2>
+                        </div>
+                        <SimpleImageSlider
+                            width={800}
+                            height={504}
+                            images={images1}
+                            style={{border: "black outset 2px", marginTop:"20px", marginBottom:"40px", marginLeft:"auto", marginRight:"auto"}}
+                            navStyle={1}
+                            showNavs={true}
+                            showBullets={true}
+                        />   
                     </div>
-                    <SimpleImageSlider
-                        width={800}
-                        height={504}
-                        images={images1}
-                        style={{border: "black outset 2px", marginTop:"20px", marginBottom:"40px", marginLeft:"auto", marginRight:"auto"}}
-                        navStyle={1}
-                        showNavs={true}
-                        showBullets={true}
-                    />   
-                </div>
-               
-                <div>
+                
                     <div>
-                        <h2>AQI-Maps - Real time air quality map(MERN)</h2>
+                        <div>
+                            <h2>AQI-Maps - Real time air quality map(MERN)</h2>
+                        </div>
+                        <SimpleImageSlider
+                            width={800}
+                            height={504}
+                            images={images2}
+                            style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
+                            navStyle={1}
+                            showNavs={true}
+                            showBullets={true}
+                        />
                     </div>
-                    <SimpleImageSlider
-                        width={800}
-                        height={504}
-                        images={images2}
-                        style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
-                        navStyle={1}
-                        showNavs={true}
-                        showBullets={true}
-                    />
-                </div>
 
-                <div>
                     <div>
-                        <h2>Friendbook - A clone of Faceboo's social media app(Java)</h2>
+                        <div>
+                            <h2>Friendbook - A clone of Faceboo's social media app(Java)</h2>
+                        </div>
+                        <SimpleImageSlider
+                            width={800}
+                            height={504}
+                            images={images3}
+                            style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
+                            navStyle={1}
+                            showNavs={true}
+                            showBullets={true}
+                        />
                     </div>
-                    <SimpleImageSlider
-                        width={800}
-                        height={504}
-                        images={images3}
-                        style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
-                        navStyle={1}
-                        showNavs={true}
-                        showBullets={true}
-                    />
+                    
                 </div>
-            </div>
             <Footer/>
+            </div>
         </BrowserRouter>
     )
 }

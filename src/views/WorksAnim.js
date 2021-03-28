@@ -44,6 +44,8 @@ const WorksAnim=(props)=>{
                 width: '1000px',
                 backgroundColor: "white",
                 border: "red solid 2px",
+                marginLeft:"auto",
+                marginRight:"auto",
                 // backgroundImage: `url(${File_001a})`,  
                 height:'2500px'}}>
             <div>

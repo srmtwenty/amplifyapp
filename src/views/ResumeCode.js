@@ -20,7 +20,7 @@ const ResumeCode=(props)=>{
 
     return(
         <BrowserRouter>
-            <div>
+            <div style={{backgroundColor: "white", border: "yellow solid 2px", marginLeft:"auto", marginRight:"auto", width: "1000px"}}>
                 {/* <div style={{backgroundImage: `url(${bg1da1})`,  height:'1200px'}}> */}
                 <Menu/>
     
