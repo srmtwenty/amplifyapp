@@ -41,15 +41,20 @@ import AEffect from '../images/icons/after-effects.png';
 const About=props=>{
     const eachSkill={
         display: "flex", 
-        // border: "red solid 2px", 
+        // textAlign: "left",
+        border: "red solid 2px", 
         width: "250px",
+        justifyContent: "right",
         // height: "50px",
+        // marginLeft: "5px",
+        // marginRight: "5px"
         margin: "5px"
+
     }
 
     return(
         <BrowserRouter>
-        <div style={{backgroundColor: "white", border: "yellow solid 2px"}}>
+        <div style={{backgroundColor: "white", border: "yellow solid 2px", marginLeft:"auto", marginRight:"auto", width: "1000px"}}>
         {/* <div style={{backgroundImage: `url(${bg1da1})`}}> */}
             <Menu/>
             {/* <Switch>
@@ -107,7 +112,7 @@ const About=props=>{
                                 <h2 style={{fontStyle:"italic"}}>Skills</h2>
                                 <div class="skills">
                                 
-                                    <div style={eachSkill}>
+                                    <div class="eachSkill1">
                                         <img src={HTML} style={{width:"50px", height:"50px", border:"yellow solid 2px"}}/>
                                         <h3>HTML</h3>
                                     </div>

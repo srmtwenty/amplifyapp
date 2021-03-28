@@ -1,9 +1,7 @@
 /* *{
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
 } */
-
 .profileImg{
     margin-top: 20px;
     width: 23%;
@@ -71,8 +69,8 @@
 
 .aboutStyle{
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     margin-top: 20px;
     width: 800px;
     margin-bottom: 50px;
@@ -91,11 +89,11 @@
 .aboutStyle h3{
     /* padding: 10px; */
     /* font-size:20px; */
-    /* font-weight:150;
-    line-height: 1; */
+    /* font-weight:150; */
+    line-height: 1;
     /* border:blue solid 2px; */
-    vertical-align: top;
-    display: inline-block;
+    /* vertical-align: top; */
+    /* display: inline-block; */
 }
 
 .title{
@@ -135,13 +133,24 @@
 .content p{
     margin-bottom: 10px;
     font-size: 15px;
+    padding: 4px;
 }
 
 .skills{
     background-color: white;
     display: flex;
-    max-width: 800px;
-    justify-content: center;
+    /* width: 800px; */
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin:0px;
+    /* margin:0px; */
+    /* width: 100%; */
+}
+
+.aboutStyle .eachSkill1{
+    background-color: gray;
+    border: black solid 3px;
+    width: 250px;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: left; */
 }
