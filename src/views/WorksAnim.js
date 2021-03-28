@@ -41,6 +41,9 @@ const WorksAnim=(props)=>{
         
         <BrowserRouter>
             <div style={{
+                width: '1000px',
+                backgroundColor: "white",
+                border: "red solid 2px",
                 // backgroundImage: `url(${File_001a})`,  
                 height:'2500px'}}>
             <div>
