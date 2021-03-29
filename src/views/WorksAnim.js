@@ -48,7 +48,7 @@ const WorksAnim=(props)=>{
                 marginLeft:"auto",
                 marginRight:"auto",
                 // backgroundImage: `url(${File_001a})`,  
-                height:'2500px'}}>
+                }}>
             <div>
                 <Menu/>
             </div>
