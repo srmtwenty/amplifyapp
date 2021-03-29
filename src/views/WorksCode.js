@@ -12,7 +12,7 @@ import project1a from '../images/project1a.png';
 import project1b from '../images/project1b.png';
 import project1c from '../images/project1c.png';
 import project3a from '../images/project3a.png';
-
+import bg1da1 from '../images/bg1da1.jpg';
 
 // import 'images/concept1a.jpg'
 export default(props)=>{
@@ -34,6 +34,7 @@ export default(props)=>{
     
     return(
         <BrowserRouter>
+        <div style={{backgroundImage: `url(${bg1da1})`}}>
             <div style={{backgroundColor: "rgb(223, 243, 255)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "1000px"}}>
                 <Menu/>
             
@@ -85,6 +86,7 @@ export default(props)=>{
                     
                 </div>
             <Footer/>
+            </div>
             </div>
         </BrowserRouter>
     )

@@ -13,7 +13,7 @@ import '../styles/worksAnim.css';
 import environ1b from '../images/environ1b.jpg';
 import environ2b from '../images/environ2b.jpg';
 import SimpleImageSlider from 'react-simple-image-slider';
-
+import bg1da1 from '../images/bg1da1.jpg';
 
 const WorksAnim=(props)=>{
     const [open, setOpen] = useState(false);
@@ -40,10 +40,11 @@ const WorksAnim=(props)=>{
     return(
         
         <BrowserRouter>
+        <div style={{backgroundImage: `url(${bg1da1})`}}>
             <div style={{
                 width: '1000px',
                 backgroundColor: "white",
-                border: "red solid 2px",
+                border: "red sold 2px",
                 marginLeft:"auto",
                 marginRight:"auto",
                 // backgroundImage: `url(${File_001a})`,  
@@ -154,6 +155,7 @@ const WorksAnim=(props)=>{
                 </div>
             </div>  
                 <Footer/>
+            </div>
             </div>
               
         </BrowserRouter>
