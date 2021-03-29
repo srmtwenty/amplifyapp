@@ -34,7 +34,7 @@ export default(props)=>{
     
     return(
         <BrowserRouter>
-            <div style={{backgroundColor: "white", border: "yellow solid 2px", marginLeft:"auto", marginRight:"auto", width: "1000px"}}>
+            <div style={{backgroundColor: "rgb(223, 243, 255)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "1000px"}}>
                 <Menu/>
             
                 <div style={{textAlign: "center"}}>

@@ -42,8 +42,8 @@ const About=props=>{
     const eachSkill={
         display: "flex", 
         // textAlign: "left",
-        border: "red solid 2px", 
-        width: "250px",
+        border: "red none 2px", 
+        width: "230px",
         justifyContent: "right",
         // height: "50px",
         // marginLeft: "5px",
@@ -54,15 +54,16 @@ const About=props=>{
 
     return(
         <BrowserRouter>
-        <div style={{backgroundColor: "white", border: "yellow solid 2px", marginLeft:"auto", marginRight:"auto", width: "1000px"}}>
-        {/* <div style={{backgroundImage: `url(${bg1da1})`}}> */}
+        <div style={{backgroundImage: `url(${bg1da1})`}}>
+        <div style={{backgroundColor: "white", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "1000px"}}>
+        {/* <div style={{backgroundImage: `url(${bg1da1})`, marginLeft:"auto", marginRight: "auto"}}> */}
             <Menu/>
             {/* <Switch>
                 <Route exact path="/settings" component={null} />
                 <Route exact path="/dashboard" component={null} />
                 <Route exact path="/" component={null} />
             </Switch> */}
-            <div style={{textAlign: "left", display: "block", maxHeight: "35%", paddingBottom: "70px", border: "red solid 2px", width: "1000px"}}>
+            <div style={{textAlign: "left", display: "block", maxHeight: "35%", paddingBottom: "70px", border: "red none 2px", width: "1000px"}}>
                 <div style={{backgroundImage: `url(${bg3a2})`, marginTop: "20px",paddingBottom: "260px", marginLeft:"auto", marginRight: "auto", width: "900px", border: "black solid 2px"}}>
                     
                     <div className="fStyle">
@@ -99,7 +100,7 @@ const About=props=>{
 
                     <div class="aboutPageSub">
                             <div className="aboutStyle">
-                                <h1 class="title">As A Full Stack Developer</h1>
+                                <h1 class="title">As A Full Stack Developer:</h1>
                                 <div className="content">
                                     <p>I learned CSS, Python, MERN and Java at CodingDojo for 14 weeks without a computer science background in fall 2020.</p>
                                     <p>Before I learned the coding, I have been keeping an eye on to a growth of app developer industry for last couple years because it is growing fast.
@@ -109,10 +110,10 @@ const About=props=>{
                                     <p>During 14 week coding camp, I worked on three team projects in Python, MERN and Java.</p>
 
                                 </div>
-                                <h2 style={{fontStyle:"italic"}}>Skills</h2>
+                                <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "300px", borderBottomStyle:"solid"}}>Skills</h2>
                                 <div class="skills">
                                 
-                                    <div class="eachSkill1">
+                                    <div style={eachSkill}>
                                         <img src={HTML} style={{width:"50px", height:"50px", border:"yellow solid 2px"}}/>
                                         <h3>HTML</h3>
                                     </div>
@@ -188,7 +189,7 @@ const About=props=>{
                                 </div>
                             </div>
                         
-                            <div className="aboutStyle">
+                            <div className="aboutStyle2">
                                 <h1 class="title2">As An Animator:</h1>
                                 <div className="content">
                                     <p>I earned a MFA degree at the Academy of Art University with a major in 3D Character Animation.  
@@ -198,8 +199,8 @@ const About=props=>{
                                     <p>I worked in the indie game company called '2020 Venture Studios' and participated in development of 'Chasing Dead' game from Oct 2014 to May 2016.  
                                         In May 2019, I worked for Tim Everitt Productions' 90 min cg animated film as a freelancer.</p>
                                 </div>
-                                <h2 style={{fontStyle:"italic"}}>Skills</h2>
-                                <div class="skills">
+                                <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "300px", borderBottomStyle:"solid"}}>Skills</h2>
+                                <div class="skills2">
                                     
                                     <div style={eachSkill}>
                                         <img src={Maya} style={{width:"50px", height:"50px"}}/>
@@ -238,6 +239,7 @@ const About=props=>{
                     </div>
                 </div>
             <Footer/>
+            </div>
         </div>
         </BrowserRouter>
         

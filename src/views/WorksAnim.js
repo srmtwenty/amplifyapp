@@ -107,14 +107,14 @@ const WorksAnim=(props)=>{
                     </div>
 
                 </div>
-                <div style={{marginTop: "20px", marginBottom: "50px", paddingBottom: "12px", textAlign: "center", backgroundColor: "gray", marginLeft:"auto", marginRight:"auto", width: "645px", borderRadius:"10px"}}>
+                <div style={{marginTop: "20px", marginBottom: "50px", paddingBottom: "25px", textAlign: "center", backgroundColor: "gray", marginLeft:"auto", marginRight:"auto", width: "645px", borderRadius:"10px"}}>
                     <h2 style={{textAlign:"center",  margin: "0px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Cookie Box (Thesis Project)</h2>
                     <ReactPlayer style={playerStyle}
                         url="https://vimeo.com/80035295"
                     />            
                 </div>
 
-                <div style={{marginTop: "20px", marginBottom: "50px", paddingBottom: "12px", textAlign: "center", backgroundColor: "gray", marginLeft:"auto", marginRight:"auto", width: "645px", borderRadius:"10px"}}>
+                <div style={{marginTop: "20px", marginBottom: "50px", paddingBottom: "25px", textAlign: "center", backgroundColor: "gray", marginLeft:"auto", marginRight:"auto", width: "645px", borderRadius:"10px"}}>
                     <h2 style={{textAlign:"center",  margin: "0px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Cookie Box - Animatic</h2>
                     <ReactPlayer style={playerStyle}
                         url="http://vimeo.com/39552619"
@@ -136,15 +136,17 @@ const WorksAnim=(props)=>{
                         </div>    
                 </div> */}
                 <div class="conceptA">
-                    <h2>Cookie Box - Concept Art</h2>
-                    <p>(click on bullets on bottom right of a screen)</p>
+                    <div className="container">
+                        <h2>Cookie Box - Concept Art</h2>
+                        {/* <p>(click on bullets on bottom right of a screen)</p> */}
+                    </div>
                     <SimpleImageSlider
                         width={720}
                         height={500}
                         images={images1}
                         style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px", marginLeft:"auto", marginRight:"auto"}}
                         navStyle={1}
-                        // showNavs={true}
+                        showNavs={true}
                         showBullets={true}
                         bgColor="black"
                         // onClickNav = {(toRight) => { }}

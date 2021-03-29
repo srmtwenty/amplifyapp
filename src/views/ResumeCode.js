@@ -12,6 +12,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import DownloadLink from "react-download-link";
 import Footer from '../components/Footer';
 import ResumeC from '../images/Resume2021cs.jpg';
+import bg1da1 from '../images/bg1da1.jpg';
 
 const ResumeCode=(props)=>{
     pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -19,8 +20,10 @@ const ResumeCode=(props)=>{
     const { pdf } = props;
 
     return(
+        
         <BrowserRouter>
-            <div style={{backgroundColor: "white", border: "yellow solid 2px", marginLeft:"auto", marginRight:"auto", width: "1000px"}}>
+        <div style={{backgroundImage: `url(${bg1da1})`}}>
+            <div style={{backgroundColor: "white", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "1000px"}}>
                 {/* <div style={{backgroundImage: `url(${bg1da1})`,  height:'1200px'}}> */}
                 <Menu/>
     
@@ -44,6 +47,7 @@ const ResumeCode=(props)=>{
                 
                 <Footer/>
             </div>
+        </div>
         </BrowserRouter>
     )
 }
