@@ -40,10 +40,10 @@ const WorksAnim=(props)=>{
     return(
         
         <BrowserRouter>
-        <div style={{backgroundImage: `url(${bg1da1})`}}>
+        <div style={{backgroundImage: `url(${File_001a})`}}>
             <div style={{
                 width: '1000px',
-                backgroundColor: "white",
+                backgroundColor: "rgba(255, 255, 255, 0.7)",
                 border: "red sold 2px",
                 marginLeft:"auto",
                 marginRight:"auto",
@@ -65,44 +65,152 @@ const WorksAnim=(props)=>{
                             
                             <div className='content1'>
                                 
-                                <p>All of these works were created in Maya program.</p>
-                            
-                                <p>0:04-0:06 Borderlands2 shot 1 (Fall 2013)<br/>
-                                - worked on layout and character animation</p>
+                                <h3>All of these works were created in Maya program.</h3>
+                                <div style={{width: "500px", marginLeft:"auto", marginRight:"auto", border:"yellow none 2px", paddingBottom:"20px"}}>
+                                
+                                    <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
+                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>0:04-0:06</p>
+                                        <div>
+                                            <div style={{border:"blue none 2px", textAlign:"left"}}><span style={{fontStyle:"italic"}}>Borderlands2 shot 1 (Fall 2013)</span><br/>
+                                            - worked on layout and character animation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* <p>0:04-0:06 Borderlands2 shot 1 (Fall 2013)<br/>
+                                    - worked on layout and character animation</p> */}
 
-                                <p>0:06-0:10 Borderlands2 shot 2 (Fall 2013)<br/>
-                                - worked on layout and character animation</p>
+                                    <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
+                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>0:06-0:10</p>
+                                        <div>
+                                            <div style={{border:"blue none 2px", textAlign:"left"}}><span style={{fontStyle:"italic"}}>Borderlands2 shot 2 (Fall 2013)</span><br/>
+                                            - worked on layout and character animation
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                <p>0:10-0:20 CG animated commercial (Fall 2018 - iMediaBay)<br/>
-                                - worked on layout, storyboard and camera/character animation</p>
+                                    {/* <p>0:06-0:10 Borderlands2 shot 2 (Fall 2013)<br/>
+                                    - worked on layout and character animation</p> */}
 
-                                <p>0:21-0:43 Chasing Dead level clear cutscene (Spring 2016 - 2020 Venture)<br/>
-                                - worked on cutscene camera/character (in Maya and Unity)</p>
+                                    <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
+                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>0:10-0:20</p>
+                                        <div>
+                                            <div style={{border:"blue none 2px", textAlign:"left"}}><span style={{fontStyle:"italic"}}>CG animated commercial (Fall 2018 - iMediaBay)</span><br/>
+                                            - worked on layout, storyboard and camera/character animation
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                <p>0:44-1:00 Idle cycle animation for a game (Spring 2014)<br/>
-                                - worked on character animation</p>
+                                    {/* <p>0:10-0:20 CG animated commercial (Fall 2018 - iMediaBay)<br/>
+                                    - worked on layout, storyboard and camera/character animation</p> */}
 
-                                <p>1:01-1:03 Idle cycle animation for a game (Spring 2014)<br/>
-                                - worked on character animation</p>
+                                    <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
+                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>0:21-0:43</p>
+                                        <div>
+                                            <div style={{border:"blue none 2px", textAlign:"left"}}><span style={{fontStyle:"italic"}}>Chasing Dead level clear cutscene (Spring 2016 - 2020 Venture)</span><br/>
+                                            - worked on cutscene camera/character (in Maya and Unity)
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                <p>1:03-1:12 Three strike - cycle animation (Spring 2019)<br/>
-                                - worked on character animation</p>
+                                    {/* <p>0:21-0:43 Chasing Dead level clear cutscene (Spring 2016 - 2020 Venture)<br/>
+                                    - worked on cutscene camera/character (in Maya and Unity)</p> */}
 
+                                    <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
+                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>0:44-1:00</p>
+                                        <div>
+                                            <div style={{border:"blue none 2px", textAlign:"left"}}><span style={{fontStyle:"italic"}}>Idle cycle animation for a game (Spring 2014)</span><br/>
+                                            - worked on character animation
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                <p>1:12-1:28 Is there a way I can borrow a car? (Spring 2018)<br/>
-                                - worked on character animation</p>
+                                    {/* <p>0:44-1:00 Idle cycle animation for a game (Spring 2014)<br/>
+                                    - worked on character animation</p> */}
 
-                                <p>1:28-1:39 Scaredy Bat (Spring 2014 - Directed by Greg Perkins)<br/>
-                                - worked on character animation</p>
+                                    <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
+                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>0:44-1:00</p>
+                                        <div>
+                                            <div style={{border:"blue none 2px", textAlign:"left"}}><span style={{fontStyle:"italic"}}>Dog idle cycle animation (Spring 2019)</span><br/>
+                                            - worked on character animation
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                <p>1:39-1:51 Wall climb and jump (Spring 2013)<br/>
-                                - worked on character animation</p>
+                                    {/* <p>1:01-1:03 Idle cycle animation for a game (Spring 2014)<br/>
+                                    - worked on character animation</p> */}
 
-                                <p>1:51-1:55 Sitting (Fall 2012)<br/>
-                                - worked on character animation</p>
+                                    <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
+                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>0:44-1:00</p>
+                                        <div>
+                                            <div style={{border:"blue none 2px", textAlign:"left"}}><span style={{fontStyle:"italic"}}>Three strike - cycle animation (Spring 2019)</span><br/>
+                                            - worked on character animation
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                <p>1:55-2:10 Remote controller (Spring 2019)<br/>
-                                - worked on character animation</p>
+                                    {/* <p>1:03-1:12 Three strike - cycle animation (Spring 2019)<br/>
+                                    - worked on character animation</p> */}
+
+                                    <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
+                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>1:12-1:28</p>
+                                        <div>
+                                            <div style={{border:"blue none 2px", textAlign:"left"}}><span style={{fontStyle:"italic"}}>Is there a way I can borrow a car? (Spring 2018)</span><br/>
+                                            - worked on character animation
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {/* <p>1:12-1:28 Is there a way I can borrow a car? (Spring 2018)<br/>
+                                    - worked on character animation</p> */}
+
+                                    <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
+                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>1:28-1:39</p>
+                                        <div>
+                                            <div style={{border:"blue none 2px", textAlign:"left"}}><span style={{fontStyle:"italic"}}>Scaredy Bat (Spring 2014 - Directed by Greg Perkins)</span><br/>
+                                            - worked on character animation
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {/* <p>1:28-1:39 Scaredy Bat (Spring 2014 - Directed by Greg Perkins)<br/>
+                                    - worked on character animation</p> */}
+
+                                    <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
+                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>1:39-1:51</p>
+                                        <div>
+                                            <div style={{border:"blue none 2px", textAlign:"left"}}><span style={{fontStyle:"italic"}}>Wall climb and jump (Spring 2013)</span><br/>
+                                            - worked on character animation
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {/* <p>1:39-1:51 Wall climb and jump (Spring 2013)<br/>
+                                    - worked on character animation</p> */}
+
+                                    <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
+                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>1:51-1:55</p>
+                                        <div>
+                                            <div style={{border:"blue none 2px", textAlign:"left"}}><span style={{fontStyle:"italic"}}>Sitting (Fall 2012)</span><br/>
+                                            - worked on character animation
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {/* <p>1:51-1:55 Sitting (Fall 2012)<br/>
+                                    - worked on character animation</p> */}
+
+                                    <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
+                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>1:55-2:10</p>
+                                        <div>
+                                            <div style={{border:"blue none 2px", textAlign:"left"}}><span style={{fontStyle:"italic"}}>Remote controller (Spring 2019)</span><br/>
+                                            - worked on character animation
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {/* <p>1:55-2:10 Remote controller (Spring 2019)<br/>
+                                    - worked on character animation</p> */}
+                                </div>
                             </div>
                             ) : null}
                     </div>

@@ -41,7 +41,8 @@ const ResumeCode=(props)=>{
                     label="Download Resume(full-stack-developer)"
                     filename="Resume2021c.pdf"
                     exportFile={()=>"My cached data"}
-                    style={{border:"black solid 2px", backgroundColor:"cyan", marginBottom:"20px", padding:"10px", borderRadius:"15px 15px 15px 15px"}}
+                    // class="downStyle"
+                    style={{borderStyle:"outset", color: "black", backgroundImage:"linear-gradient(to bottom right, cyan, rgb(5, 223, 223))", marginBottom:"20px", padding:"10px", borderRadius:"10px 10px 10px 10px", textDecoration:"none"}}
                 />
                 </div>
                 

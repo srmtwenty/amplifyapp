@@ -41,7 +41,7 @@ const ResumeAnim=()=>{
                     label="Download Resume(cg character animator)"
                     filename="Resume2021a1.pdf"
                     exportFile={()=>"My cached data"}
-                    style={{border:"black solid 2px", backgroundColor:"cyan", marginBottom:"20px", padding:"10px", borderRadius:"15px 15px 15px 15px"}}
+                    style={{borderStyle:"outset", color: "black", backgroundImage:"linear-gradient(to bottom right, cyan, rgb(5, 223, 223))", marginBottom:"20px", padding:"10px", borderRadius:"10px 10px 10px 10px", textDecoration:"none"}}
                 />
                 </div>
 

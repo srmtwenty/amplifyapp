@@ -37,6 +37,7 @@ import Maya from '../images/icons/maya.png';
 import Visual from '../images/icons/visual_studio.png';
 import Audacity from '../images/icons/audacity.png';
 import AEffect from '../images/icons/after-effects.png';
+import File_001a from '../images/File_001a.jpg';
 
 const About=props=>{
     const eachSkill={
@@ -54,9 +55,9 @@ const About=props=>{
 
     return(
         <BrowserRouter>
-        <div style={{backgroundImage: `url(${bg1da1})`}}>
+        <div style={{backgroundImage: `url(${File_001a})`}}>
             <Menu/>
-        <div style={{backgroundColor: "white", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", width: "1000px"}}>
+        <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", width: "1000px"}}>
         {/* <div style={{backgroundImage: `url(${bg1da1})`, marginLeft:"auto", marginRight: "auto"}}> */}
             
             {/* <Switch>
