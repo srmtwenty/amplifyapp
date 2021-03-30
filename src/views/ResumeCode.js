@@ -43,7 +43,7 @@ const ResumeCode=(props)=>{
                     exportFile={()=>"My cached data"}
                     // class="downStyle"
                     style={{borderStyle:"outset", color: "black", backgroundImage:"linear-gradient(to bottom right, cyan, rgb(5, 223, 223))", marginBottom:"20px", padding:"10px", borderRadius:"10px 10px 10px 10px", textDecoration:"none"}}
-                />
+                    />
                 </div>
                 
                 <Footer/>

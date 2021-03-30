@@ -55,7 +55,7 @@ const About=props=>{
 
     return(
         <BrowserRouter>
-        <div style={{backgroundImage: `url(${File_001a})`, width: "100%"}}>
+        <div style={{backgroundImage: `url(${File_001a})`, width: "1900px"}}>
             <Menu/>
         <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", width: "1000px"}}>
         {/* <div style={{backgroundImage: `url(${bg1da1})`, marginLeft:"auto", marginRight: "auto"}}> */}
