@@ -56,7 +56,7 @@ const About=props=>{
         <BrowserRouter>
         <div style={{backgroundImage: `url(${bg1da1})`}}>
             <Menu/>
-        <div style={{backgroundColor: "white", border: "yellow solid 2px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", width: "1000px"}}>
+        <div style={{backgroundColor: "white", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", width: "1000px"}}>
         {/* <div style={{backgroundImage: `url(${bg1da1})`, marginLeft:"auto", marginRight: "auto"}}> */}
             
             {/* <Switch>
@@ -244,7 +244,6 @@ const About=props=>{
             <Footer/>
         </div>
         </BrowserRouter>
-        
     )
 }
 
