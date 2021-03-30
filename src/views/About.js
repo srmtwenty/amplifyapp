@@ -55,9 +55,10 @@ const About=props=>{
     return(
         <BrowserRouter>
         <div style={{backgroundImage: `url(${bg1da1})`}}>
-        <div style={{backgroundColor: "white", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "1000px"}}>
-        {/* <div style={{backgroundImage: `url(${bg1da1})`, marginLeft:"auto", marginRight: "auto"}}> */}
             <Menu/>
+        <div style={{backgroundColor: "white", border: "yellow solid 2px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", width: "1000px"}}>
+        {/* <div style={{backgroundImage: `url(${bg1da1})`, marginLeft:"auto", marginRight: "auto"}}> */}
+            
             {/* <Switch>
                 <Route exact path="/settings" component={null} />
                 <Route exact path="/dashboard" component={null} />
@@ -238,8 +239,9 @@ const About=props=>{
                             </div>
                     </div>
                 </div>
-            <Footer/>
+            
             </div>
+            <Footer/>
         </div>
         </BrowserRouter>
         

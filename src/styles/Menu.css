@@ -1,15 +1,16 @@
 
 
-/* #header-style {
-    
-    
-  } */
+#header-style {
+  background-image: linear-gradient(to top right, rgb(129, 154, 236, .5), rgb(73, 167, 255, .5));
+  width: 100%;
+  border: black solid 2px;
+  }
   
   .Menu{
-      background-image: linear-gradient(to top right, rgb(129, 154, 236, .5), rgb(73, 167, 255, .5));
-          width: 1000px;
-          border: black solid 2px;
-
+      width: 1000px;
+      /* border: black solid 2px; */
+      margin-left: auto;
+      margin-right: auto;
       position: relative;
       /* padding: 4px; */
       
