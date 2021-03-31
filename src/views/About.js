@@ -108,9 +108,9 @@ const About=props=>{
                                     <p>I learned CSS, Python, MERN and Java at CodingDojo for 14 weeks without a computer science background in 2020, after keeping an eye on to a fast growing coding industry for a couple years.
                                     At the camp, I also worked on three projects under team working environment in Python, MERN and Java which helped me to understand coding further and get used to communicate with other teammates to discuss problem solutions.</p>
 
-                                    <p>App is being used widely in a daily life including food delievery, music search, social media and traffic condition.</p>
+                                    {/* <p>App is being used widely in a daily life including food delievery, music search, social media and traffic condition.</p>
                                     Furthermore, I also have been interested in problem solving and researching solutions. When I used to work in a game production as a cg character animator, there were situations I had to do multitasking which includes finding errors and solution in a game testing.
-                                    <p>During 14 week coding camp, I worked on three team projects in Python, MERN and Java.</p>
+                                    <p>During 14 week coding camp, I worked on three team projects in Python, MERN and Java.</p> */}
 
                                     {/* <p>I learned CSS, Python, MERN and Java at CodingDojo for 14 weeks without a computer science background in fall 2020.</p>
                                     <p>Before I learned the coding, I have been keeping an eye on to a growth of app developer industry for last couple years because it is growing fast.
