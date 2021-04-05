@@ -41,6 +41,9 @@ import File_001a from '../images/File_001a.jpg';
 import Motion from '../images/icons/MotionBuilder.png';
 import Illustrator from '../images/icons/adobe-round-illustrator.png';
 import Photo from '../images/icons/adobe-round-photoshop.png';
+import Postman from '../images/icons/postman.png';
+import Api from '../images/icons/api-settings.png';
+import Mongoose from '../images/icons/mongoose.png';
 
 const About=props=>{
     const eachSkill={
@@ -148,7 +151,7 @@ const About=props=>{
                                         <h3>MongoDB</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px", height:"50px"}}/>
+                                        <img src={Mongoose} style={{width:"50px", height:"50px"}}/>
                                         <h3>Mongoose</h3>
                                     </div>
                                     <div style={eachSkill}>
@@ -165,7 +168,7 @@ const About=props=>{
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Spring} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Spring Boot</h3>
+                                        <h3>Spring Tool Suite</h3>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Java} style={{width:"50px", height:"50px"}}/>
@@ -175,20 +178,20 @@ const About=props=>{
                                         <img src={Visual} style={{width:"50px", height:"50px"}}/>
                                         <h3>Visual Studio Code</h3>
                                     </div>
-                                    <div style={eachSkill}>
+                                    {/* <div style={eachSkill}>
                                         <img src={Python} style={{width:"50px", height:"50px"}}/>
                                         <h3>Bcrypt</h3>
-                                    </div>
+                                    </div> */}
                                     <div style={eachSkill}>
                                         <img src={SQL} style={{width:"50px", height:"50px"}}/>
                                         <h3>MySQL</h3>
                                     </div>
-                                    <div style={eachSkill}>
+                                    {/* <div style={eachSkill}>
                                         <img src={Python} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Spring Tool Suite</h3>
-                                    </div>
+                                        <h3>Spring Boot</h3>
+                                    </div> */}
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px", height:"50px"}}/>
+                                        <img src={Postman} style={{width:"50px", height:"50px"}}/>
                                         <h3>Postman</h3>
                                     </div>
                                     <div style={eachSkill}>
@@ -196,7 +199,7 @@ const About=props=>{
                                         <h3>Github</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px", height:"50px"}}/>
+                                        <img src={Api} style={{width:"50px", height:"50px"}}/>
                                         <h3>Api</h3>
                                     </div>
                                     
