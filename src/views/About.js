@@ -55,7 +55,8 @@ const About=props=>{
 
     return(
         <BrowserRouter>
-        <div style={{backgroundImage: `url(${File_001a})`, width: "1900px"}}>
+        <div style={{backgroundColor: "rgba(238, 238, 238)", width: "1900px"}}>
+        {/* <div style={{backgroundImage: `url(${File_001a})`, width: "1900px"}}> */}
             <Menu/>
         <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", width: "1000px"}}>
         {/* <div style={{backgroundImage: `url(${bg1da1})`, marginLeft:"auto", marginRight: "auto"}}> */}
@@ -105,8 +106,8 @@ const About=props=>{
                                 <h1 class="title">As A Full Stack Developer:</h1>
                                 <div className="content">
                                     <p>I am passionate about learning and finding efficient problem solutions in coding.</p>
-                                    <p>I learned CSS, Python, MERN and Java at CodingDojo for 14 weeks without a computer science background in 2020, after keeping an eye on to a fast growing coding industry for a couple years.
-                                    At the camp, I also worked on three projects under team working environment in Python, MERN and Java which helped me to understand coding further and get used to communicate with other teammates to discuss problem solutions.</p>
+                                    <p>I learned CSS, Python, MERN and Java at CodingDojo for 14 weeks without a computer science background in 2020, after keeping an eye on to a fast growing coding industry for a couple years.<br></br>
+                                    At the camp, I also worked on three projects under team working environment in Python, MERN and Java which helped me to understand coding further and get used to communicate with other teammates frequently to discuss problem solutions.</p>
 
                                     {/* <p>App is being used widely in a daily life including food delievery, music search, social media and traffic condition.</p>
                                     Furthermore, I also have been interested in problem solving and researching solutions. When I used to work in a game production as a cg character animator, there were situations I had to do multitasking which includes finding errors and solution in a game testing.
@@ -212,7 +213,7 @@ const About=props=>{
                                 
                                     <p>I am passionate of making variety type of exciting animations for various characters(human, vehicles, animals) in film or video game. I love watching animated films, athletics, or live action to analyze and understand more about camera&character movements.</p>
 	                                <p>I earned a MFA degree at the Academy of Art University with a major in 3D Character Animation.  From 2009 to 2012, I took graduate animation courses focusing on performance, mechanical motion, and was mentored under veteran industry animators. 
-                                    In 2013, I collaborated with a team on animating characters and camera lay-out in three collaborative projects: Borderlands 2, Junior Giants 2014, and Scaredy Bat.  
+                                    In 2013, I collaborated with a team on animating characters and camera lay-out in three collaborative projects: Borderlands 2, Junior Giants 2014, and Scaredy Bat.<br></br>
                                     I worked in development of 'Chasing Dead' game from Oct 2014 to May 2016 for the indie game company '2020 Venture Studios'.  In May 2019, I worked for Tim Everitt Productions' to animate dinosaur shots in 90 min cg animated film "Lone Pup" as a freelancer.
                                     </p>
                                 </div>
