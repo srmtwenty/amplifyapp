@@ -38,6 +38,9 @@ import Visual from '../images/icons/visual_studio.png';
 import Audacity from '../images/icons/audacity.png';
 import AEffect from '../images/icons/after-effects.png';
 import File_001a from '../images/File_001a.jpg';
+import Motion from '../images/icons/MotionBuilder.png';
+import Illustrator from '../images/icons/adobe-round-illustrator.png';
+import Photo from '../images/icons/adobe-round-photoshop.png';
 
 const About=props=>{
     const eachSkill={
@@ -225,7 +228,7 @@ const About=props=>{
                                         <h3>Maya</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={CSS} style={{width:"50px", height:"50px"}}/>
+                                        <img src={Photo} style={{width:"50px", height:"50px"}}/>
                                         <h3>Photoshop CS</h3>
                                     </div>
                                     <div style={eachSkill}>
@@ -233,7 +236,7 @@ const About=props=>{
                                         <h3>Premiere Pro</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={CSS} style={{width:"50px", height:"50px"}}/>
+                                        <img src={Motion} style={{width:"50px", height:"50px"}}/>
                                         <h3>MotionBuilder</h3>
                                     </div>
                                     <div style={eachSkill}>
@@ -245,7 +248,7 @@ const About=props=>{
                                         <h3>After Effect</h3>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={CSS} style={{width:"50px", height:"50px"}}/>
+                                        <img src={Illustrator} style={{width:"50px", height:"50px"}}/>
                                         <h3>Illustrator CS</h3>
                                     </div>
                                     <div style={eachSkill}>

@@ -7,7 +7,7 @@
 .profileImg{
     margin-top: 20px;
     width: 23%;
-    background-color: purple;
+    background-color: rgb(238, 238, 238);
     padding: 1px;
     vertical-align: top;
     /* border: red solid 4px; */
@@ -129,6 +129,7 @@
     /* background-image: linear-gradient(to bottom right, rgb(207, 207, 207, .8), rgb(149, 149, 149, 08)); */
     /* background-color: white; */
     border: red none 2px;
+    font-style: italic;
     border-radius: 25px 25px 0px 0px;/* background-image: linear-gradient(to bottom right, rgb(189, 216, 238), rgb(129, 175, 236)); */
     margin-top: 0px;
     /* background-color: gray; */
@@ -142,6 +143,7 @@
 .title2{
     /* background-image: linear-gradient(to bottom right, rgb(207, 207, 207, .8), rgb(149, 149, 149, 08)); */
     background-color: rgb(184, 184, 184);
+    font-style: italic;
     margin-top: 0px;
     /* border: white solid 2px; */
     border-radius: 25px 25px 0px 0px;/* background-image: linear-gradient(to bottom right, rgb(189, 216, 238), rgb(129, 175, 236)); */
