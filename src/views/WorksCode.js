@@ -34,8 +34,8 @@ export default(props)=>{
     
     return(
         <BrowserRouter>
-        <div style={{backgroundImage: `url(${bg1da1})`}}>
-            <div style={{backgroundColor: "rgb(223, 243, 255)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "1000px"}}>
+        {/* <div style={{backgroundImage: `url(${bg1da1})`}}> */}
+            <div style={{backgroundColor: "rgb(223, 243, 255)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "1900px"}}>
                 <Menu/>
             
                 <div style={{textAlign: "center"}}>
@@ -87,7 +87,7 @@ export default(props)=>{
                 </div>
             <Footer/>
             </div>
-            </div>
+            
         </BrowserRouter>
     )
 }

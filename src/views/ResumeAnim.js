@@ -18,8 +18,8 @@ const ResumeAnim=()=>{
 
     return(
         <BrowserRouter>
-            <div style={{backgroundImage: `url(${bg1da1})`}}>
-            <div style={{backgroundColor: "white", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "1000px"}}>
+            {/* <div style={{backgroundImage: `url(${bg1da1})`}}> */}
+            <div style={{backgroundColor: "white", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "1900px"}}>
                 {/* <div style={{backgroundImage: `url(${bg1da1})`,  height:'1200px'}}> */}
                 <Menu/>
     
@@ -47,7 +47,7 @@ const ResumeAnim=()=>{
 
                 <Footer/>
             </div>
-            </div>
+            
         </BrowserRouter>
     )
 }

@@ -40,18 +40,18 @@ const WorksAnim=(props)=>{
     return(
         
         <BrowserRouter>
-        <div style={{backgroundImage: `url(${File_001a})`}}>
+        {/* <div style={{backgroundImage: `url(${File_001a})`}}> */}
             <div style={{
-                width: '1000px',
+                width: '1900px',
                 backgroundColor: "rgba(255, 255, 255, 0.7)",
                 border: "red sold 2px",
                 marginLeft:"auto",
                 marginRight:"auto",
                 // backgroundImage: `url(${File_001a})`,  
                 }}>
-            <div>
+            
                 <Menu/>
-            </div>
+            
             <div class="worksAnimPage">
                 <div style={{marginTop: "20px", marginBottom: "50px", padding: "0px", textAlign: "center", backgroundColor: "gray", marginLeft:"auto", marginRight:"auto", width: "645px", borderRadius:"10px", border:"black solid 2px"}}>
                     <h2 style={{textAlign:"center",  margin: "0px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Demo Reel</h2>
@@ -264,7 +264,7 @@ const WorksAnim=(props)=>{
             </div>  
                 <Footer/>
             </div>
-            </div>
+            
               
         </BrowserRouter>
     )
