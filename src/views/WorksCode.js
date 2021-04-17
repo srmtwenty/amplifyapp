@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Menu from '../components/Menu';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Link, Route, Switch} from 'react-router-dom';
 import SimpleImageSlider from 'react-simple-image-slider';
 import Footer from '../components/Footer';
 import project2a from '../images/project2a.png';
@@ -42,6 +42,9 @@ export default(props)=>{
                         <div>
                             <div>
                                 <h2>EasyShop - Simple and intuitive E-commerce website(Python/Django)</h2>
+                                <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/EasyShop-master">
+                                    GitHub
+                                </a>
                             </div>
                             <SimpleImageSlider
                                 width={800}
@@ -57,6 +60,9 @@ export default(props)=>{
                         <div>
                             <div>
                                 <h2>AQI-Maps - Real time air quality map(MERN)</h2>
+                                <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/AQI-Maps">
+                                    Github
+                                </a>
                             </div>
                             <SimpleImageSlider
                                 width={800}
@@ -72,6 +78,9 @@ export default(props)=>{
                         <div>
                             <div>
                                 <h2>Friendbook - A clone of Faceboo's social media app(Java)</h2>
+                                <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/friendbook-main1">
+                                    Github
+                                </a>
                             </div>
                             <SimpleImageSlider
                                 width={800}
