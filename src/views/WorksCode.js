@@ -37,9 +37,9 @@ export default(props)=>{
         {/* <div style={{backgroundImage: `url(${bg1da1})`}}> */}
             <div style={{backgroundColor: "rgb(223, 243, 255)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "1900px"}}>
                 <Menu/>
-                <div style={{width: "1000px", height: "auto" ,marginLeft: "auto", marginRight: "auto", backgroundColor: "white", paddingTop: "5px"}}>
+                <div style={{width: "1000px", height: "auto" ,marginLeft: "auto", marginRight: "auto", backgroundColor: "white", paddingTop: "5px", border: "red none 2px"}}>
                     <div style={{textAlign: "center"}}>
-                        <div>
+                        <div style={{padding: "20px 0px 20px 0px"}}>
                             <div>
                                 <h2>EasyShop - Simple and intuitive E-commerce website(Python/Django)</h2>
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/EasyShop-master">
@@ -57,7 +57,7 @@ export default(props)=>{
                             />   
                         </div>
                     
-                        <div>
+                        <div style={{backgroundColor: "yellow", padding: "20px 0px 20px 0px"}}>
                             <div>
                                 <h2>AQI-Maps - Real time air quality map(MERN)</h2>
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/AQI-Maps">
@@ -75,7 +75,7 @@ export default(props)=>{
                             />
                         </div>
 
-                        <div>
+                        <div style={{padding: "20px 0px 20px 0px"}}>
                             <div>
                                 <h2>Friendbook - A clone of Faceboo's social media app(Java)</h2>
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/friendbook-main1">
