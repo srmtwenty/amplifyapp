@@ -55,6 +55,16 @@ export default(props)=>{
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/EasyShop-master">
                                     GitHub
                                 </a>
+                                <div style={{width: "900px", margin:"auto", border: "red none 2px"}}>
+                                    <ul style={{margin: "20px", textAlign:"left"}}>
+                                    <li>Configured templates in Python/Django cultivating a simplistic UI and shopping experience including viewing, adding, and ordering items.
+                                    </li>
+                                    <li>Implemented Bcrypt's hashing and HTML form validation to enhance security.
+                                    </li> 
+                                    <li>Constructed an intuitive front end design using CSS resulting in a seamless and on-brand user experience”    
+                                    </li>
+                                    </ul>
+                                </div>
                             </div>
                             <SimpleImageSlider
                                 width={900}
@@ -73,6 +83,18 @@ export default(props)=>{
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/AQI-Maps">
                                     Github
                                 </a>
+                                <div style={{width: "900px", margin:"auto", border: "red none 2px"}}>
+                                    <ul style={{margin: "20px", textAlign:"left"}}>
+                                        <li>Implemented React component forms with VS Code and MongoDB for secure login and registration
+                                        </li>
+                                        
+                                        <li>Set validation error messages using React to bolster form security
+                                        </li>
+                                        
+                                        <li>Used Axios to send HTTP post(user, email, password info for login, registration) from a client to a backend(server)
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                             <SimpleImageSlider
                                 width={900}
@@ -87,10 +109,22 @@ export default(props)=>{
 
                         <div style={{padding: "20px 0px 20px 0px"}}>
                             <div>
-                                <h2>Friendbook - A clone of Faceboo's social media app(Java)</h2>
+                                <h2>Friendbook - A clone of Facebook's social media app(Java)</h2>
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/friendbook-main1">
                                     Github
                                 </a>
+                                <div style={{width: "900px", margin:"auto", border: "red none 2px"}}>
+                                    <ul style={{margin: "20px", textAlign:"left"}}>
+                                        <li>Created jsp forms with Spring Tool Suite to implement post / edit / delete functionality for a seamless and intuitive user experience
+                                        </li>
+
+                                        <li>Implemented a MySQL database that ties listing systems with users (hosts and attendees) and events for a secured and organized data table
+                                        </li>
+
+                                        <li>Developed five different relational models in MySQL database for users giving power to the user logged in, such as deleting or editing posts they created as hosts.
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                             <SimpleImageSlider
                                 width={900}
