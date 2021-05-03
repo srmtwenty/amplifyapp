@@ -35,15 +35,16 @@ const ResumeAnim=()=>{
                                 // width={1000}
                                 renderAnnotationLayer={true}/>       
                     </Document> */}
+                    <SinglePagePDFViewer pdf={Scott_Cho_resume_cg_animator} />
                     <img src={ResumeA}/>
                     {/* <SinglePagePDFViewer pdf={Resume2021A} /> */}
 
-                    {/* <DownloadLink
+                    <DownloadLink
                     label="Download Resume(cg character animator)"
                     filename="Resume2021a1.pdf"
                     exportFile={()=>"My cached data"}
                     style={{borderStyle:"outset", color: "black", backgroundImage:"linear-gradient(to bottom right, cyan, rgb(5, 223, 223))", marginBottom:"20px", padding:"10px", borderRadius:"10px 10px 10px 10px", textDecoration:"none"}}
-                    /> */}
+                    />
                     <a className="dl" href={Scott_Cho_resume_cg_animator} download="Scott_Cho_resume_cg_animator">Download Resume(cg animator)</a>
                 </div>
 
