@@ -40,7 +40,7 @@ const ResumeCode=(props)=>{
                     <SinglePagePDFViewer pdf={Scott_Cho_resume_full_stack_developer} />
                     <img src={ResumeC}/>
 
-                    <DownloadLink
+                    {/* <DownloadLink
                     label="Download Resume(full-stack-developer)"
                     // filename="Scott_Cho_resume_full_stack_developer.pdf"
                     // filename="Scott_Cho_resume_full_stack_developer.pdf"
@@ -50,7 +50,7 @@ const ResumeCode=(props)=>{
                     style={{borderStyle:"outset", color: "black", backgroundImage:"linear-gradient(to bottom right, cyan, rgb(5, 223, 223))", marginBottom:"20px", padding:"10px", borderRadius:"10px 10px 10px 10px", textDecoration:"none"}}
                     />
                     <a className="dl" href={Resume2021c} download="Resume2021c">Download Resume(full stack developer)</a>
-                    <a className="dl" href={Scott_Cho_resume_full_stack_developer} download="Scott_Cho_resume_full_stack_developer">Download Resume(full stack developer)</a>
+                    <a className="dl" href={Scott_Cho_resume_full_stack_developer} download="Scott_Cho_resume_full_stack_developer">Download Resume(full stack developer)</a> */}
                     <a href="https://drive.google.com/uc?export=download&id=1jXRI0iOXYU_jiaIULQLoxAbFhUE-mcJj">Download Resume</a>
                     
                 </div>
