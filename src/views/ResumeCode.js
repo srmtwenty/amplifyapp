@@ -37,7 +37,7 @@ const ResumeCode=(props)=>{
                     <Link class="currentOff" style={{textDecoration: "none"}} to="/resume_anim">Resume (cg character animator)</Link>
                     
                     
-                    <SinglePagePDFViewer pdf={Scott_Cho_resume_full_stack_developer} />
+                    {/* <SinglePagePDFViewer pdf={Scott_Cho_resume_full_stack_developer} /> */}
                     <img src={ResumeC}/>
 
                     {/* <DownloadLink
@@ -51,7 +51,7 @@ const ResumeCode=(props)=>{
                     />
                     <a className="dl" href={Resume2021c} download="Resume2021c">Download Resume(full stack developer)</a>
                     <a className="dl" href={Scott_Cho_resume_full_stack_developer} download="Scott_Cho_resume_full_stack_developer">Download Resume(full stack developer)</a> */}
-                    <a href="https://drive.google.com/uc?export=download&id=1jXRI0iOXYU_jiaIULQLoxAbFhUE-mcJj">Download Resume</a>
+                    <a href="https://drive.google.com/uc?export=download&id=1jXRI0iOXYU_jiaIULQLoxAbFhUE-mcJj">Download Resume(Full Stack Developer)</a>
                     
                 </div>
                 
