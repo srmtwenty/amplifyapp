@@ -12,6 +12,7 @@ import DownloadLink from "react-download-link";
 import Footer from '../components/Footer';
 import ResumeA from '../images/Resume2021a1s.jpg';
 import bg1da1 from '../images/bg1da1.jpg';
+import Scott_Cho_resume_cg_animator from '../documents/Scott_Cho_resume_cg_animator.pdf';
 
 const ResumeAnim=()=>{
     pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -37,12 +38,13 @@ const ResumeAnim=()=>{
                     <img src={ResumeA}/>
                     {/* <SinglePagePDFViewer pdf={Resume2021A} /> */}
 
-                    <DownloadLink
+                    {/* <DownloadLink
                     label="Download Resume(cg character animator)"
                     filename="Resume2021a1.pdf"
                     exportFile={()=>"My cached data"}
                     style={{borderStyle:"outset", color: "black", backgroundImage:"linear-gradient(to bottom right, cyan, rgb(5, 223, 223))", marginBottom:"20px", padding:"10px", borderRadius:"10px 10px 10px 10px", textDecoration:"none"}}
-                />
+                    /> */}
+                    <a className="dl" href={Scott_Cho_resume_cg_animator} download="Scott_Cho_resume_cg_animator">Download Resume(cg animator)</a>
                 </div>
 
                 <Footer/>

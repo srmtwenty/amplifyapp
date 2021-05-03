@@ -14,6 +14,8 @@ import Footer from '../components/Footer';
 import ResumeC from '../images/Resume2021cs.jpg';
 import bg1da1 from '../images/bg1da1.jpg';
 
+import Scott_Cho_resume_full_stack_developer from '../documents/Scott_Cho_resume_full_stack_developer.pdf';
+
 const ResumeCode=(props)=>{
     pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
     // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -38,13 +40,16 @@ const ResumeCode=(props)=>{
                     {/* <SinglePagePDFViewer pdf={Resume2021c} /> */}
                     <img src={ResumeC}/>
 
-                    <DownloadLink
+                    {/* <DownloadLink
                     label="Download Resume(full-stack-developer)"
-                    filename="Resume2021c.pdf"
+                    filename="Scott_Cho_resume_full_stack_developer.pdf"
+                    // filename="Scott_Cho_resume_full_stack_developer.pdf"
+                    // filename="Resume2021c.pdf"
                     exportFile={()=>"My cached data"}
                     // class="downStyle"
                     style={{borderStyle:"outset", color: "black", backgroundImage:"linear-gradient(to bottom right, cyan, rgb(5, 223, 223))", marginBottom:"20px", padding:"10px", borderRadius:"10px 10px 10px 10px", textDecoration:"none"}}
-                    />
+                    /> */}
+                    <a className="dl" href={Scott_Cho_resume_full_stack_developer} download="Scott_Cho_resume_full_stack_developer">Download Resume(full stack developer)</a>
                 </div>
                 
                 <Footer/>
