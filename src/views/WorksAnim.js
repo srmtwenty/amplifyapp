@@ -128,7 +128,7 @@ const WorksAnim=(props)=>{
                                     - worked on character animation</p> */}
 
                                     <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
-                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>0:44-1:00</p>
+                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>1:00-1:02</p>
                                         <div>
                                             <div style={{border:"blue none 2px", textAlign:"left"}}><span style={{fontStyle:"italic"}}>Dog idle cycle animation (Spring 2019)</span><br/>
                                             - worked on character animation
@@ -140,7 +140,7 @@ const WorksAnim=(props)=>{
                                     - worked on character animation</p> */}
 
                                     <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
-                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>0:44-1:00</p>
+                                        <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>1:02-1:12</p>
                                         <div>
                                             <div style={{border:"blue none 2px", textAlign:"left"}}><span style={{fontStyle:"italic"}}>Three strike - cycle animation (Spring 2019)</span><br/>
                                             - worked on character animation
