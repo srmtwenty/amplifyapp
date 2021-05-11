@@ -56,7 +56,7 @@ const WorksAnim=(props)=>{
                 <div style={{marginTop: "20px", marginBottom: "50px", padding: "0px", textAlign: "center", backgroundColor: "gray", marginLeft:"auto", marginRight:"auto", width: "645px", borderRadius:"10px", border:"black solid 2px"}}>
                     <h2 style={{textAlign:"center",  margin: "0px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Demo Reel</h2>
                     <ReactPlayer style={playerStyle}
-                        url="http://vimeo.com/333221219"
+                        url="http://vimeo.com/547818607"
                     />
                     <div class="inside">
                         <button onClick={(e)=>{togglePanel(e)}} className='header'>
