@@ -44,6 +44,7 @@ import Photo from '../images/icons/adobe-round-photoshop.png';
 import Postman from '../images/icons/postman.png';
 import Api from '../images/icons/api-settings.png';
 import Mongoose from '../images/icons/mongoose.png';
+import Sailpoint from '../images/icons/sailpoint.png';
 
 const About=props=>{
     const eachSkill={
@@ -201,6 +202,10 @@ const About=props=>{
                                     <div style={eachSkill}>
                                         <img src={Api} style={{width:"50px", height:"50px"}}/>
                                         <h3>Api</h3>
+                                    </div>
+                                    <div style={eachSkill}>
+                                        <img src={Sailpoint} style={{width:"50px", height:"50px"}}/>
+                                        <h3>SailPoint IIQ(IAM))</h3>
                                     </div>
                                     
                                 </div>
