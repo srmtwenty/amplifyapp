@@ -7,7 +7,7 @@ const Footer=()=>{
     }
 
     return(
-        <div id="footerId">
+        <footer>
             <div class="footerStyle">
                 <h1>Scott Cho Ver 1.0</h1>
                 <div class="wrap">
@@ -21,7 +21,7 @@ const Footer=()=>{
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }
 export default Footer;

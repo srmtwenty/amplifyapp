@@ -52,7 +52,7 @@ const About=props=>{
         // textAlign: "left",
         border: "red none 2px", 
         width: "230px",
-        justifyContent: "right",
+        justifyContent: "left",
         // height: "50px",
         // marginLeft: "5px",
         // marginRight: "5px"
@@ -62,48 +62,48 @@ const About=props=>{
 
     return(
         <BrowserRouter>
-        <div style={{backgroundColor: "rgba(238, 238, 238)", width: "1900px"}}>
+        <div style={{backgroundColor: "rgba(238, 238, 238)", width: "100%"}}>
         {/* <div style={{backgroundImage: `url(${File_001a})`, width: "1900px"}}> */}
             <Menu/>
-        <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", width: "1000px"}}>
-        {/* <div style={{backgroundImage: `url(${bg1da1})`, marginLeft:"auto", marginRight: "auto"}}> */}
-            
-            {/* <Switch>
-                <Route exact path="/settings" component={null} />
-                <Route exact path="/dashboard" component={null} />
-                <Route exact path="/" component={null} />
-            </Switch> */}
-            <div style={{textAlign: "left", display: "block", maxHeight: "35%", paddingBottom: "70px", border: "red none 2px", width: "1000px"}}>
-                <div style={{backgroundImage: `url(${bg3a2})`, marginTop: "20px",paddingBottom: "260px", marginLeft:"auto", marginRight: "auto", width: "900px", border: "black solid 2px"}}>
-                    
-                    <div className="fStyle">
-                        <Typical
-                            // className="fStyle"
-                            steps={['Scott Cho', 1000, 
-                                ]}
-                            wrapper="h1"
-                        />  
-                        <Typical 
-                            // style={{textAlign: "left", display: "inline-block", width: "30%", border: "red, slide, 2px"}}
-                            steps={['', 2000, 
-                                'Full Web Developer', 500]}
-                            
-                            wrapper="p"
-                            
-                        />
-                        <Typical 
-                            // style={{textAlign: "left", display: "inline-block", width: "30%", border: "red, slide, 2px"}}
-                            steps={['', 3500, 
-                                '&', 20, 
-                                '& CG Character Animator', 500]}
-                            
-                            wrapper="p"
-                            
-                        />
+            <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", width: "100%", display: "block"}}>
+                {/* <div style={{backgroundImage: `url(${bg1da1})`, marginLeft:"auto", marginRight: "auto"}}> */}
+                
+                {/* <Switch>
+                    <Route exact path="/settings" component={null} />
+                    <Route exact path="/dashboard" component={null} />
+                    <Route exact path="/" component={null} />
+                </Switch> */}
+                <div style={{textAlign: "left", display: "block", maxHeight: "35%", paddingBottom: "70px", border: "red dotted 2px", width: "100%", height: "auto"}}>
+                    <div style={{backgroundImage: `url(${bg3a2})`, marginTop: "20px",paddingBottom: "260px", margin: "0 auto", maxWidth: "900px", height: "auto", border: "cyan solid 2px", backgroundRepeat:"no-repeat", backgroundSize:"contain"}}>
+                        
+                        <div className="fStyle">
+                            <Typical
+                                // className="fStyle"
+                                steps={['Scott Cho', 1000, 
+                                    ]}
+                                wrapper="h2"
+                            />  
+                            <Typical 
+                                // style={{textAlign: "left", display: "inline-block", width: "30%", border: "red, slide, 2px"}}
+                                steps={['', 2000, 
+                                    'Full Web Developer', 500]}
+                                
+                                wrapper="p"
+                                
+                            />
+                            <Typical 
+                                // style={{textAlign: "left", display: "inline-block", width: "30%", border: "red, slide, 2px"}}
+                                steps={['', 3500, 
+                                    '&', 20, 
+                                    '& CG Character Animator', 500]}
+                                
+                                wrapper="p"
+                                
+                            />
+                        </div>
+                        {/* <img className="profileImg" src={bg3a1} alt="About Picture"/> */}
+                        {/* <p>Ver 1.0</p>   */}
                     </div>
-                    {/* <img className="profileImg" src={bg3a1} alt="About Picture"/> */}
-                    {/* <p>Ver 1.0</p>   */}
-                </div>
                 </div>
                     
                 <div class="aboutPage">

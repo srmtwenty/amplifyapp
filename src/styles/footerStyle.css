@@ -1,6 +1,6 @@
-#footerId{
+footer{
     background-image: linear-gradient(to top right, rgb(129, 154, 236, .5), rgb(73, 167, 255, .5));
-    width: 1800px;
+    width: 100%;
     border: black solid 2px;
     margin-left: auto;
     margin-right: auto;
@@ -8,10 +8,12 @@
 
 .footerStyle{
     display: flex;
-    justify-content: center;
+    margin:0 auto;
+    border: yellow solid 2px;
+    /*justify-content: center;*/
     /* text-align: center; */
     
-    /* width: 1000px; */
+    width: 1000px;
 }
 
 .footerStyle h1{

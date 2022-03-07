@@ -18,10 +18,32 @@ import project3b2 from '../images/project3b2.png';
 import project3b3 from '../images/project3b3.png';
 import project3b4 from '../images/project3b4.png';
 import project3b5 from '../images/project3b5.png';
+
+import project4b1 from '../images/p4a.png';
+import project4b2 from '../images/p4b.png';
+import project4b3 from '../images/p4c.png';
+import project4b4 from '../images/p4d.png';
+import project4b5 from '../images/p4e.png';
+import project4b6 from '../images/p4f.png';
+import project4b7 from '../images/p4g.png';
+import project4b8 from '../images/p4h.png';
+
 import bg1da1 from '../images/bg1da1.jpg';
 
+//import 'images/p4a.png'
 // import 'images/concept1a.jpg'
 export default(props)=>{
+    const images4=[
+        {url: "static/media/p4a.9d63158b.png"},
+        {url: "static/media/p4b.db331937.png"},
+        {url: "static/media/p4c.57e97bc6.png"},
+        {url: "static/media/p4d.9ec5ef5a.png"},
+        {url: "static/media/p4e.8fb946c1.png"},
+        {url: "static/media/p4f.da01f69c.png"},
+        {url: "static/media/p4g.534bb0d7.png"},
+        {url: "static/media/p4h.31b379d8.png"}
+    ];
+
     const images1=[
         {url: "static/media/project1a.d8959746.png"},
         {url: "static/media/project1b.c78ddfe6.png"},
@@ -45,41 +67,76 @@ export default(props)=>{
     return(
         <BrowserRouter>
         {/* <div style={{backgroundImage: `url(${project3b1})`}}> */}
-            <div style={{backgroundColor: "rgb(223, 243, 255)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "1900px"}}>
+            <div style={{backgroundColor: "rgb(223, 243, 255)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "100%"}}>
                 <Menu/>
+                
                 <div style={{width: "1000px", height: "auto" ,marginLeft: "auto", marginRight: "auto", backgroundColor: "white", paddingTop: "5px", border: "red none 2px"}}>
                     <div style={{textAlign: "center"}}>
-                        <div style={{padding: "20px 0px 20px 0px"}}>
+
+
+                        <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 20px 0px"}}>
                             <div>
-                                <h2>EasyShop - Simple and intuitive E-commerce website(Python/Django)</h2>
-                                <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/EasyShop-master">
-                                    GitHub
+                                <h2>Athlete Database - A database of Athletes records(Java, 2022)</h2>
+                                <a href="https://github.com/srmtwenty/my_java_project1_athlete_database">
+                                    Github
                                 </a>
                                 <div style={{width: "900px", margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
-                                    <li>Configured templates in Python/Django cultivating a simplistic UI and shopping experience including viewing, adding, and ordering items.
-                                    </li>
-                                    <li>Implemented Bcrypt's hashing and HTML form validation to enhance security.
-                                    </li> 
-                                    <li>Constructed an intuitive front end design using CSS resulting in a seamless and on-brand user experience”    
-                                    </li>
+                                        <li>Created jsp forms with Spring Tool Suite to implement post / edit / delete / search functionality for a seamless and intuitive user experience
+                                        </li>
+
+                                        <li>Implemented a MySQL database that ties listing systems with users (hosts), athletes, competitions, nations, and competition musics for a secured and organized data table
+                                        </li>
+
+                                        <li>Developed eight different relational entities in MySQL database for users giving power to the user logged in, such as deleting or editing athletes & competitions they created as hosts
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <SimpleImageSlider
+                                width={900}
+                                height={700}
+                                images={images4}
+                                style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
+                                navStyle={1}
+                                showNavs={true}
+                                showBullets={true}
+                            />
+                        </div>
+
+                        <div style={{backgroundColor: "rgba(255, 249, 214)", padding: "20px 0px 20px 0px"}}>
+                            <div>
+                                <h2>Friendbook - A clone of Facebook's social media app(Java, 2020)</h2>
+                                <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/friendbook-main1">
+                                    Github
+                                </a>
+                                <div style={{width: "900px", margin:"auto", border: "red none 2px"}}>
+                                    <ul style={{margin: "20px", textAlign:"left"}}>
+                                        <li>Created jsp forms with Spring Tool Suite to implement post / edit / delete functionality for a seamless and intuitive user experience
+                                        </li>
+
+                                        <li>Implemented a MySQL database that ties listing systems with users (hosts and attendees) and events for a secured and organized data table
+                                        </li>
+
+                                        <li>Developed five different relational models in MySQL database for users giving power to the user logged in, such as deleting or editing posts they created as hosts.
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
                             <SimpleImageSlider
                                 width={900}
                                 height={504}
-                                images={images1}
-                                style={{border: "black outset 2px", marginTop:"20px", marginBottom:"40px", marginLeft:"auto", marginRight:"auto"}}
+                                images={images3}
+                                style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
                                 navStyle={1}
                                 showNavs={true}
                                 showBullets={true}
-                            />   
+                            />
                         </div>
-                    
-                        <div style={{backgroundColor: "yellow", padding: "20px 0px 20px 0px"}}>
+
+                        <div style={{backgroundColor: "rgba(227, 250, 231)", padding: "20px 0px 20px 0px"}}>
                             <div>
-                                <h2>AQI-Maps - Real time air quality map(MERN)</h2>
+                                <h2>AQI-Maps - Real time air quality map(MERN, 2020)</h2>
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/AQI-Maps">
                                     Github
                                 </a>
@@ -107,36 +164,35 @@ export default(props)=>{
                             />
                         </div>
 
+
                         <div style={{padding: "20px 0px 20px 0px"}}>
                             <div>
-                                <h2>Friendbook - A clone of Facebook's social media app(Java)</h2>
-                                <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/friendbook-main1">
-                                    Github
+                                <h2>EasyShop - Simple and intuitive E-commerce website(Python/Django, 2020)</h2>
+                                <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/EasyShop-master">
+                                    GitHub
                                 </a>
                                 <div style={{width: "900px", margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
-                                        <li>Created jsp forms with Spring Tool Suite to implement post / edit / delete functionality for a seamless and intuitive user experience
-                                        </li>
-
-                                        <li>Implemented a MySQL database that ties listing systems with users (hosts and attendees) and events for a secured and organized data table
-                                        </li>
-
-                                        <li>Developed five different relational models in MySQL database for users giving power to the user logged in, such as deleting or editing posts they created as hosts.
-                                        </li>
+                                    <li>Configured templates in Python/Django cultivating a simplistic UI and shopping experience including viewing, adding, and ordering items.
+                                    </li>
+                                    <li>Implemented Bcrypt's hashing and HTML form validation to enhance security.
+                                    </li> 
+                                    <li>Constructed an intuitive front end design using CSS resulting in a seamless and on-brand user experience”    
+                                    </li>
                                     </ul>
                                 </div>
                             </div>
                             <SimpleImageSlider
                                 width={900}
                                 height={504}
-                                images={images3}
-                                style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
+                                images={images1}
+                                style={{border: "black outset 2px", marginTop:"20px", marginBottom:"40px", marginLeft:"auto", marginRight:"auto"}}
                                 navStyle={1}
                                 showNavs={true}
                                 showBullets={true}
-                            />
+                            />   
                         </div>
-                        
+                    
                     </div>
                 </div>
             <Footer/>

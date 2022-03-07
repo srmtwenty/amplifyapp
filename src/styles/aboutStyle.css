@@ -93,7 +93,8 @@
     margin-top: 20px;
     width: 800px;
     margin-bottom: 50px;
-    background-color: rgb(184, 184, 184);
+    /*background-color: rgb(184, 184, 184);*/
+    background-image: linear-gradient(to bottom, rgba(184, 184, 184, .8), white);
     border-radius: 25px 25px 25px 25px;
     border: black solid 2px;
     padding: 2px;
@@ -186,7 +187,7 @@
 }
 
 .skills2{
-    background-color: rgb(184, 184, 184);
+    /*background-color: rgb(184, 184, 184);*/
     display: flex;
     /* width: 800px; */
     justify-content: space-between;

@@ -11,7 +11,9 @@ const Menu = props=>{
     }
 
     return (
-        <div id="header-style">
+        <header>
+            <div id="header-style">
+            <h1 id="h1-header">Scott Ver 1.1</h1>
             <div className="Menu">
 
                 <a href="/" style={aStyle}>
@@ -23,11 +25,11 @@ const Menu = props=>{
                 </a>
 
                 <a href="/works_code" style={aStyle}>
-                    <button className="current1">Coding Works</button>
+                    <button className="current1">Coding</button>
                 </a>
 
                 <a href="/works_anim" style={aStyle}>
-                    <button className="current1">Animation Works</button>
+                    <button className="current1">Animation</button>
                 </a>
 
                 <a href="https://github.com/srmtwenty" style={aStyle}>
@@ -40,7 +42,8 @@ const Menu = props=>{
             
             
             </div>
-        </div>
+            </div>
+        </header>
     )
 }
 export default withRouter(Menu);
