@@ -9,7 +9,7 @@ const Footer=()=>{
     return(
         <footer>
             <div class="footerStyle">
-                <h1>Scott Cho Ver 1.0</h1>
+                <h1>Scott Ver 1.1</h1>
                 <div class="wrap">
                     {/* <ul>
                         <li>Contact: 541-255-5401</li>

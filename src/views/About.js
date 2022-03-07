@@ -73,8 +73,8 @@ const About=props=>{
                     <Route exact path="/dashboard" component={null} />
                     <Route exact path="/" component={null} />
                 </Switch> */}
-                <div style={{textAlign: "left", display: "block", maxHeight: "35%", paddingBottom: "70px", border: "red dotted 2px", width: "100%", height: "auto"}}>
-                    <div style={{backgroundImage: `url(${bg3a2})`, marginTop: "20px",paddingBottom: "260px", margin: "0 auto", maxWidth: "900px", height: "auto", border: "cyan solid 2px", backgroundRepeat:"no-repeat", backgroundSize:"contain"}}>
+                <div style={{textAlign: "left", display: "block", maxHeight: "35%", paddingBottom: "70px", border: "red none 2px", width: "100%", height: "auto"}}>
+                    <div style={{backgroundImage: `url(${bg3a2})`, marginTop: "20px",paddingBottom: "260px", margin: "0 auto", maxWidth: "900px", height: "auto", border: "cyan none 2px", backgroundRepeat:"no-repeat", backgroundSize:"contain"}}>
                         
                         <div className="fStyle">
                             <Typical

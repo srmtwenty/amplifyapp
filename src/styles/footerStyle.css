@@ -1,7 +1,7 @@
 footer{
     background-image: linear-gradient(to top right, rgb(129, 154, 236, .5), rgb(73, 167, 255, .5));
     width: 100%;
-    border: black solid 2px;
+    border: black none 2px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -9,7 +9,7 @@ footer{
 .footerStyle{
     display: flex;
     margin:0 auto;
-    border: yellow solid 2px;
+    border: yellow none 2px;
     /*justify-content: center;*/
     /* text-align: center; */
     
@@ -18,16 +18,17 @@ footer{
 
 .footerStyle h1{
     width: 50%;
+    text-align: left;
 }
 
 .wrap{
     /* text-align:right; */
     border: red none 2px;
-    width: 40%;
+    width: 60%;
 }
 
 .wrap h3{
     /* padding:5px; */
     /* margin: 5px; */
-    text-align: left;
+    text-align: right;
 }

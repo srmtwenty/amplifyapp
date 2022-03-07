@@ -1,34 +1,32 @@
 header{
   display:block;
   width: 100%;
+  border: black none 2px;
   /*background-image: linear-gradient(to bottom, rgba(129, 154, 236, .8), white);*/
-  background-image: linear-gradient(to top right, rgb(129, 154, 236, .5), rgb(73, 167, 255, .5));
+  background-image: linear-gradient(to right, rgb(78, 171, 252, .5), rgb(122, 193, 255, .5));
 }
 #h1-header{
-  border: yellow solid 2px;
+  border: yellow none 2px;
   text-align: left;
-  width: 35%
+  width: 35%;
 }
 
 #header-style {
-  /* width: 1000px; */
-  
   width: 1000px;
-  padding-left: max(2.4rem,env(safe-area-inset-left)); 
-  padding-right: max(2.4rem,env(safe-area-inset-right)); 
- 
+  
   border: black none 2px;
   margin: 0 auto;
   display:flex;
+  align-items: center;
   }
   
   .Menu{
       /* width: 1000px; */
-      border: black solid 2px;
+      border: black none 2px;
       margin-left: auto;
       margin-right: auto;
       position: relative;
-      margin-top: 20px;
+      margin-top: 0px;
       /* padding: 4px; */
       
       /* margin: 2em 3em; */
