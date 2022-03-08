@@ -13,7 +13,7 @@ const Menu = props=>{
     return (
         <header>
             <div id="header-style">
-            <h1 id="h1-header">Scott Ver 1.1</h1>
+            <h1 id="h1-header">Scott Cho 1.1</h1>
             <div className="Menu">
 
                 <a href="/" style={aStyle}>
