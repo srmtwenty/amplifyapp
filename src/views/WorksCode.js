@@ -30,6 +30,14 @@ import project4b8 from '../images/p4h.png';
 
 import bg1da1 from '../images/bg1da1.jpg';
 
+
+import project5a from '../images/project5a.png';
+import project5b from '../images/project5b.png';
+import project5c from '../images/project5c.png';
+
+import project6a from '../images/project6a.png';
+import project6b from '../images/project6b.png';
+
 //import 'images/p4a.png'
 // import 'images/concept1a.jpg'
 export default(props)=>{
@@ -72,6 +80,70 @@ export default(props)=>{
                 
                 <div style={{width: "1000px", height: "auto" ,marginLeft: "auto", marginRight: "auto", backgroundColor: "white", paddingTop: "5px", border: "red none 2px"}}>
                     <div style={{textAlign: "center"}}>
+
+                        <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 20px 0px"}}>
+                            <div>
+                                <h2>Athlete Database - A database of Athletes records(Java, 2022)</h2>
+                                <a href="https://github.com/srmtwenty/my_java_project1_athlete_database">
+                                    Github
+                                </a>
+                                <div style={{width: "900px", margin:"auto", border: "red none 2px"}}>
+                                    <ul style={{margin: "20px", textAlign:"left"}}>
+                                        <li>Created jsp forms with Spring Tool Suite to implement post / edit / delete / search functionality for a seamless and intuitive user experience
+                                        </li>
+
+                                        <li>Implemented a MySQL database that ties listing systems with users (hosts), athletes, competitions, nations, and competition musics for a secured and organized data table
+                                        </li>
+
+                                        <li>Developed eight different relational entities in MySQL database for users giving power to the user logged in, such as deleting or editing athletes & competitions they created as hosts
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <SimpleImageSlider
+                                width={900}
+                                height={700}
+                                images={images4}
+                                style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
+                                navStyle={1}
+                                showNavs={true}
+                                showBullets={true}
+                            />
+                        </div>
+
+
+                        <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 20px 0px"}}>
+                            <div>
+                                <h2>Athlete Database - A database of Athletes records(Java, 2022)</h2>
+                                <a href="https://github.com/srmtwenty/my_java_project1_athlete_database">
+                                    Github
+                                </a>
+                                <div style={{width: "900px", margin:"auto", border: "red none 2px"}}>
+                                    <ul style={{margin: "20px", textAlign:"left"}}>
+                                        <li>Created jsp forms with Spring Tool Suite to implement post / edit / delete / search functionality for a seamless and intuitive user experience
+                                        </li>
+
+                                        <li>Implemented a MySQL database that ties listing systems with users (hosts), athletes, competitions, nations, and competition musics for a secured and organized data table
+                                        </li>
+
+                                        <li>Developed eight different relational entities in MySQL database for users giving power to the user logged in, such as deleting or editing athletes & competitions they created as hosts
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <SimpleImageSlider
+                                width={900}
+                                height={700}
+                                images={images4}
+                                style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
+                                navStyle={1}
+                                showNavs={true}
+                                showBullets={true}
+                            />
+                        </div>
+
+
+
 
 
                         <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 20px 0px"}}>

@@ -1,18 +1,19 @@
 import React from 'react';
 import {Document, Page, pdfjs} from 'react-pdf';
 import {Link} from '@reach/router';
-import Resume2021c from '../documents/Resume2021c.pdf';
+//import Resume2021c from '../documents/Resume2021c.pdf';
 import '../styles/resumeStyle.css';
-import SinglePagePDFViewer from "../components/single-page";
+//import SinglePagePDFViewer from "../components/single-page";
 
 import Menu from "../components/Menu";
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 // import bg1da1 from '../images/bg1da1.jpg';
 
-import DownloadLink from "react-download-link";
+//import DownloadLink from "react-download-link";
 import Footer from '../components/Footer';
 
-import ResumeC1 from '../images/Resume2022cs.jpg';
+
+import ResumeC1 from '../images/Resume2021cs1.jpg';
 //import ResumeC from '../images/Resume2022cs.jpg';
 import bg1da1 from '../images/bg1da1.jpg';
 
