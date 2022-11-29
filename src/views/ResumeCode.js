@@ -39,10 +39,8 @@ const ResumeCode=(props)=>{
 
                     <Link class="currentOff" style={{textDecoration: "none"}} to="/resume_anim">Resume (cg character animator)</Link>
                     
-                    
                     <SinglePagePDFViewer pdf={Scott_Cho_resume_full_stack_developer} />
                     
-
                     {/* <DownloadLink
                     label="Download Resume(full-stack-developer)"
                     // filename="Scott_Cho_resume_full_stack_developer.pdf"
