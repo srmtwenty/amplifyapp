@@ -31,10 +31,10 @@ const WorksAnim=(props)=>{
     }
     
     const images1=[
-        {url: "static/media/environ1b.763bdcc0.jpg"},
-        {url: "static/media/environ2b.0d0e7ded.jpg"},
-        {url: "static/media/concept1a.341bf30d.jpg"},
-        {url: "static/media/character_turn1.2853f558.jpg"}
+        {url: "static/media/environ1b.763bdcc0860ffc6c0c9d.jpg"},
+        {url: "static/media/environ2b.0d0e7dedb232e20f89a6.jpg"},
+        {url: "static/media/concept1a.341bf30da08d85cd978f.jpg"},
+        {url: "static/media/character_turn1.2853f5583cf277f92ece.jpg"}
     ];
 
     return(
@@ -53,6 +53,7 @@ const WorksAnim=(props)=>{
                 <Menu/>
             
             <div class="worksAnimPage">
+                
                 <div style={{marginTop: "20px", marginBottom: "50px", padding: "0px", textAlign: "center", backgroundColor: "gray", marginLeft:"auto", marginRight:"auto", width: "645px", borderRadius:"10px", border:"black solid 2px"}}>
                     <h2 style={{textAlign:"center",  margin: "0px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Demo Reel</h2>
                     <ReactPlayer style={playerStyle}

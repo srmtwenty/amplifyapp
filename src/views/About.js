@@ -46,6 +46,10 @@ import Api from '../images/icons/api-settings.png';
 import Mongoose from '../images/icons/mongoose.png';
 import Sailpoint from '../images/icons/sailpoint.png';
 
+import Dbeaver from '../images/icons/dbeaver.png';
+import Docker from '../images/icons/docker.png';
+import Intellij from '../images/icons/intellij.png';
+
 const About=props=>{
     const eachSkill={
         display: "flex", 
@@ -205,9 +209,23 @@ const About=props=>{
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Sailpoint} style={{width:"50px", height:"50px"}}/>
-                                        <h3>SailPoint IIQ(IAM))</h3>
+                                        <h3>SailPoint IIQ(IAM)</h3>
                                     </div>
                                     
+                                    <div style={eachSkill}>
+                                        <img src={Dbeaver} style={{width:"50px", height:"50px"}}/>
+                                        <h3>Dbeaver</h3>
+                                    </div>
+
+                                    <div style={eachSkill}>
+                                        <img src={Docker} style={{width:"50px", height:"50px"}}/>
+                                        <h3>Docker</h3>
+                                    </div>
+
+                                    <div style={eachSkill}>
+                                        <img src={Intellij} style={{width:"50px", height:"50px"}}/>
+                                        <h3>Intellij</h3>
+                                    </div>
                                 </div>
                             </div>
                         
