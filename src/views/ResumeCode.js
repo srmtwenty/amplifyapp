@@ -1,7 +1,6 @@
 import React from 'react';
 import {Document, Page, pdfjs} from 'react-pdf';
 import {Link} from '@reach/router';
-//import Resume2021c from '../documents/Resume2021c.pdf';
 import '../styles/resumeStyle.css';
 
 import SinglePagePDFViewer from "../components/single-page";
