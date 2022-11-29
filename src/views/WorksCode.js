@@ -43,25 +43,10 @@ import project5c from '../images/project5c.png';
 import project6a from '../images/project6a.png';
 import project6b from '../images/project6b.png';
 
-//import 'images/p4a.png'
-// import 'images/concept1a.jpg'
 
-/*
-import Button from "@material-ui/core/Button";
-import MobileStepper from "@material-ui/core/MobileStepper";
-import Paper from "@material-ui/core/Paper";
-import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
-import Typography from "@material-ui/core/Typography";
-import { useTheme } from "@material-ui/core/styles";
-import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft";
-*/
 
 export default(props)=>{
-    const images = [
-        "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-        "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
-        "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-    ];
+    
 
     const images6=[
         {url: "static/media/project6a.5b5e0614ddc75e63f367.png"},
