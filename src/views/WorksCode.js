@@ -3,8 +3,6 @@ import Menu from '../components/Menu';
 import {BrowserRouter, Link, Route, Switch} from 'react-router-dom';
 import SimpleImageSlider from 'react-simple-image-slider';
 
-
-import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 
 
@@ -90,21 +88,6 @@ export default(props)=>{
         {url: "static/media/project3b5.3e8fe3db48ba9a4e43f2.png"},
     ];
     
-
-    const slideImages = [
-        {
-          url: 'images/project2a.png',
-          caption: 'Slide 1'
-        },
-        {
-          url: 'images/project5b.png',
-          caption: 'Slide 2'
-        },
-        {
-          url: 'images/project5c.png',
-          caption: 'Slide 3'
-        },
-      ];
 
     return(
         <BrowserRouter>
