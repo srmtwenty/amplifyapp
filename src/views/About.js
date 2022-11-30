@@ -10,7 +10,7 @@ import bg1da1 from '../images/bg1da1.jpg';
 
 import '../styles/aboutStyle.css';
 import Typical from 'react-typical';
-// import bg3a1 from '../images/bg3a1.jpg';
+
 import bg3a2 from '../images/bg3a2.jpg';
 import Footer from '../components/Footer';
 
