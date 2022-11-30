@@ -99,9 +99,7 @@ const About=props=>{
                                 steps={['', 3500, 
                                     '&', 20, 
                                     '& CG Character Animator', 500]}
-                                
                                 wrapper="p"
-                                
                             />
                         </div>
                         {/* <img className="profileImg" src={bg3a1} alt="About Picture"/> */}
@@ -190,10 +188,7 @@ const About=props=>{
                                         <img src={SQL} style={{width:"50px", height:"50px"}}/>
                                         <h3>MySQL</h3>
                                     </div>
-                                    {/* <div style={eachSkill}>
-                                        <img src={Python} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Spring Boot</h3>
-                                    </div> */}
+                                 
                                     <div style={eachSkill}>
                                         <img src={Postman} style={{width:"50px", height:"50px"}}/>
                                         <h3>Postman</h3>
