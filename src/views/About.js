@@ -37,7 +37,6 @@ import Maya from '../images/icons/maya.png';
 import Visual from '../images/icons/visual_studio.png';
 import Audacity from '../images/icons/audacity.png';
 import AEffect from '../images/icons/after-effects.png';
-import File_001a from '../images/File_001a.jpg';
 import Motion from '../images/icons/MotionBuilder.png';
 import Illustrator from '../images/icons/adobe-round-illustrator.png';
 import Photo from '../images/icons/adobe-round-photoshop.png';
